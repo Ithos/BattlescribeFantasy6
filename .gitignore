@@ -8,6 +8,10 @@
 # Don't ignore catalogues and game system
 !*.cat
 !*.gst
+!*.catz
+!*.gstz
+!*.bsi
+!*.xml
 
 # Don't ignore docs
 !*.md
