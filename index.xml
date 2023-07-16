@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<dataIndex battleScribeVersion="2.03" name="Warhammer Fantasy - 6ª Edición" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
+<dataIndex battleScribeVersion="2.03" name="Warhammer Fantasy - 6ª Edición" indexUrl="https://github.com/Ithos/BattlescribeFantasy6/blob/main/index.bsi" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
   <dataIndexEntries>
     <dataIndexEntry filePath="Warhammer Fantasy - 6ª Edición.gstz" dataType="gamesystem" dataId="fd97-5cfe-d46c-03c6" dataName="Warhammer Fantasy - 6ª Edición " dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer Fantasy - 6ª Edición - Elfos Silvanos.catz" dataType="catalogue" dataId="712f-e863-4d8b-f9aa" dataName="Warhammer Fantasy - 6ª Edición - Elfos Silvanos" dataBattleScribeVersion="2.03" dataRevision="1"/>
