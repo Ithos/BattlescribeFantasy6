@@ -12,6 +12,7 @@
 !*.gstz
 !*.bsi
 !*.xml
+!release_packages/
 
 # Don't ignore docs
 !*.md
