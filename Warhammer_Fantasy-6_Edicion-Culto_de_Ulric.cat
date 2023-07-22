@@ -37,7 +37,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="ba42-ab7f-b838-5a9a" name="Unidad especial" hidden="false" targetId="102e-012c-5785-3354" primary="true"/>
+        <categoryLink id="3a44-fa90-dd17-b532" name="Unidad básica" hidden="false" targetId="ba68-224b-3224-a908" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8c23-602c-16ba-ab04" name="Grupo de mando" hidden="false" collective="false" import="true" type="upgrade">
@@ -256,12 +256,12 @@
             <selectionEntryGroup id="08cb-865b-771a-046e" name="Armadura" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4681-7cf2-0476-b177" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6f7-c592-df87-b74b" type="min"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="e690-0cef-703c-59f6" name="Armadura ligera" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d85-34ce-9c0e-2eca" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb6d-193f-2f30-7438" type="min"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="df7c-0c24-250b-5214" name="Armadura ligera" hidden="false" targetId="c534-e31e-c936-c2f2" type="profile"/>
@@ -568,7 +568,7 @@
         <selectionEntry id="975c-e675-e4f7-9845" name="Mastines" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b81d-3376-3778-213b" type="max"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41ff-71a5-0efa-d90a" type="max"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41ff-71a5-0efa-d90a" type="min"/>
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup id="3d25-5db4-5f9e-09d9" name="Armas" hidden="false" collective="false" import="true">
@@ -1432,6 +1432,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a4ae-6e8d-346f-caf1" name="Gran Maestre del Lobo Blanco" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -1468,6 +1471,9 @@
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="fd10-5cbe-b5ae-dde6" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b06-2c77-0f78-2909" type="max"/>
+          </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup id="1417-3445-423d-5664" name="Objetos mágicos" hidden="false" collective="false" import="true">
               <constraints>
@@ -1481,6 +1487,9 @@
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1581,6 +1590,9 @@
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1d82-2709-b900-4d15" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00e8-8ce9-11d2-aac5" type="max"/>
+          </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup id="d485-49ec-7c46-2477" name="Objetos mágicos" hidden="false" collective="false" import="true">
               <constraints>
@@ -1595,6 +1607,9 @@
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1753,6 +1768,9 @@
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ef19-2aa3-fd51-9326" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef01-5088-0a95-ba72" type="max"/>
+          </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup id="5a8d-5778-d080-7349" name="Objetos mágicos" hidden="false" collective="false" import="true">
               <constraints>
@@ -1766,6 +1784,9 @@
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1862,6 +1883,9 @@
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a918-9513-2c14-4e45" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3086-5de3-e25e-8b88" type="max"/>
+          </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup id="5614-b9b8-2247-cd56" name="Objetos mágicos" hidden="false" collective="false" import="true">
               <constraints>
@@ -1876,6 +1900,9 @@
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2119,10 +2146,16 @@
               <entryLinks>
                 <entryLink id="3298-b5eb-e6a8-e8f3" name="Estandartes mágicos" hidden="false" collective="false" import="true" targetId="8a72-ce68-2668-6e2d" type="selectionEntryGroup"/>
               </entryLinks>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="245f-1369-c590-ae3f" name="No" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntries>
                 <selectionEntry id="894a-1ab3-52fb-2e0d" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72e6-38e5-79f9-caa0" type="max"/>
+                  </constraints>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="67b5-a9d0-050b-da6a" name="Objetos mágicos" hidden="false" collective="false" import="true">
                       <constraints>
@@ -2137,8 +2170,14 @@
                       </entryLinks>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                  <costs>
+                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -9863,7 +9902,7 @@ También puedes incluir a los Gallos de Pelea de Lumpin’ Croop como unidad Sin
         <selectionEntry id="1da7-65e2-3ef0-d3de" name="Corazón de Middenheim" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="128b-211c-b83c-2ab8" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78a9-6bfe-502c-76b5" type="min"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c241-59ac-ea72-4fd0" type="max"/>
           </constraints>
           <profiles>
             <profile id="6ac6-816b-a8e2-4924" name="Corazón de Middenheim" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -10795,7 +10834,6 @@ Un sacerdote no puede entonar más de una plegaria adicional cada turno de ningu
         </selectionEntry>
         <selectionEntry id="6a7f-fbc2-2ac0-0e21" name="Fragmento de Skul" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="de98-2d3d-ac69-9779" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff67-bede-06d6-0ff1" type="max"/>
           </constraints>
           <profiles>
