@@ -5800,7 +5800,7 @@ Combate. La dotación lucha normalmente en combate cuerpo a cuerpo, incluido el 
                       <modifiers>
                         <modifier type="set" field="a67b-7d62-494d-fd7b" value="0.0">
                           <conditions>
-                            <condition field="selections" scope="aa96-d159-d8c3-874e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88ae-7b14-2592-5594" type="greaterThan"/>
+                            <condition field="selections" scope="aa96-d159-d8c3-874e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6c14-1063-125d-2b1d" type="greaterThan"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -10864,9 +10864,12 @@ Un sacerdote no puede entonar más de una plegaria adicional cada turno de ningu
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="144b-ceb5-b432-3040" name="Plegarias de Ulric" hidden="false">
-      <description>Los sacerdotes pueden pronunciar una de estas plegarias durante la fase de magia, los grandes sacerdotes pueden pronunciar dos,
-cada plegaria se trata como un objeto portahechizos de energía 3
-ningún sacerdote puede entonar la misma plegaria dos veces en el mismo turno
+      <description>Los sacerdotes pueden pronunciar una de estas plegarias durante la fase de magia, los grandes sacerdotes pueden pronunciar dos.
+
+Cada plegaria se trata como un objeto portahechizos de energía 3 + 1D3, 
+esto representa la dificultad para dispersar la plegaria cuando se lanza, en turnos posteriores si la plegaria se mantiene cuenta sólo como energía 3
+
+Ningún sacerdote puede entonar la misma plegaria dos veces en el mismo turno
 
 -Aullido de guerra: El sacerdote y su unidad añaden 1D6 + 2cm a su distancia de carga. Esta plegaria se mantiene activa hasta que el sacerdote pronuncia una nueva.
 
