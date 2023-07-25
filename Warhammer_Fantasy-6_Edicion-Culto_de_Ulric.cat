@@ -670,7 +670,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="419c-32cb-7949-1273" type="min"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="8077-fbb6-387f-e7a3" name="Lanza (infantería)" hidden="false" targetId="b34b-3f52-e95c-d5f3" type="profile"/>
+                        <infoLink id="8077-fbb6-387f-e7a3" name="Lanza (caballería)" hidden="false" targetId="0115-9609-e617-662d" type="profile"/>
                       </infoLinks>
                       <costs>
                         <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
@@ -10257,7 +10257,7 @@ También puedes incluir a los Gallos de Pelea de Lumpin’ Croop como unidad Sin
           <profiles>
             <profile id="2387-3323-ed4a-02b5" name="Estandarte del verdadero guerrero" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
               <characteristics>
-                <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">Si la unidad portadora pierde un conbate reduce sus negativos en el chequeo de desmoralización en 1D3.</characteristic>
+                <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">Si la unidad portadora pierde un combate reduce sus negativos en el chequeo de desmoralización en 1D3.</characteristic>
               </characteristics>
             </profile>
           </profiles>
