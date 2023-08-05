@@ -685,9 +685,10 @@
         <categoryLink id="9898-3709-ecd8-d003" name="New CategoryLink" hidden="false" targetId="c647-4209-4e6c-206a" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="86d8-64f0-ffa1-1a11" name="Heraldo imperial (portaestandarte de batalla)" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="86d8-64f0-ffa1-1a11" name="Heraldo imperial (portaestandarte de batalla)" hidden="false" collective="false" import="true" defaultSelectionEntryId="194c-aca6-5eda-a1b6">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5080-ba4f-fc06-762d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d258-cf72-3ccf-4886" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="81cf-2a66-0e8c-a4d9" name="Sí" hidden="false" collective="false" import="true" type="upgrade">
@@ -15984,6 +15985,7 @@ Alados de potencia de unidad 5+ deben efectuar un chequeo de pánico igual que s
                         <selectionEntry id="9b81-6421-873d-fe57" name="Arma de mano" hidden="false" collective="true" import="true" type="upgrade">
                           <constraints>
                             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="563e-bc2c-6625-7665" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5266-e9fc-dc15-3359" type="min"/>
                           </constraints>
                           <infoLinks>
                             <infoLink id="85ec-713f-a7c4-57ba" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
@@ -15995,6 +15997,7 @@ Alados de potencia de unidad 5+ deben efectuar un chequeo de pánico igual que s
                         <selectionEntry id="ac6f-4d67-dd7b-df86" name="Lanza de caballería" hidden="false" collective="true" import="true" type="upgrade">
                           <constraints>
                             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b927-a14b-e3fa-3ee2" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3972-cdd3-eed1-dca7" type="min"/>
                           </constraints>
                           <infoLinks>
                             <infoLink id="40cb-5b4c-da6c-740a" name="Lanza de caballería" hidden="false" targetId="5bcd-ff0b-d571-38d0" type="profile"/>

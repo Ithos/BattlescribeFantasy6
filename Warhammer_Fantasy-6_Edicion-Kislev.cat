@@ -109,6 +109,7 @@
                 <selectionEntry id="8e92-aa1f-bb52-ab4b" name="Arma de mano" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03a7-2d82-5031-bcdb" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3a9-c756-76e4-87ac" type="min"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="3761-116a-afdb-eca2" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
@@ -120,6 +121,7 @@
                 <selectionEntry id="689a-e78d-7bbb-3769" name="Lanza de caballería" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5687-65c1-b7d0-c405" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e54-ca34-0a2b-3cbe" type="min"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="8ede-aaf9-abca-b801" name="Lanza de caballería" hidden="false" targetId="5bcd-ff0b-d571-38d0" type="profile"/>
@@ -463,6 +465,7 @@ Alados de potencia de unidad 5+ deben efectuar un chequeo de pánico igual que s
                 <selectionEntry id="9beb-db45-a7ae-55c8" name="Arma de mano" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6217-9de6-16cd-8e3f" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a294-b187-2abe-7743" type="min"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="77d6-35a7-e764-34f4" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
@@ -474,6 +477,7 @@ Alados de potencia de unidad 5+ deben efectuar un chequeo de pánico igual que s
                 <selectionEntry id="35cd-e805-58b6-cdaf" name="Lanza de caballería" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9869-0ece-abc3-0283" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a43f-5f36-ce44-6cd3" type="min"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="1b7c-5dd2-356d-0b8c" name="Lanza de caballería" hidden="false" targetId="5bcd-ff0b-d571-38d0" type="profile"/>
@@ -684,22 +688,22 @@ Alados de potencia de unidad 5+ deben efectuar un chequeo de pánico igual que s
       <modifiers>
         <modifier type="remove" field="category" value="c647-4209-4e6c-206a">
           <conditions>
-            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7997-f051-e359-2f0d" type="greaterThan"/>
+            <condition field="selections" scope="self" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="7997-f051-e359-2f0d" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="add" field="category" value="6573-e7cf-6800-0acf">
           <conditions>
-            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7997-f051-e359-2f0d" type="greaterThan"/>
+            <condition field="selections" scope="self" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="7997-f051-e359-2f0d" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="unset-primary" field="category" value="c647-4209-4e6c-206a">
           <conditions>
-            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7997-f051-e359-2f0d" type="greaterThan"/>
+            <condition field="selections" scope="self" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="7997-f051-e359-2f0d" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="set-primary" field="category" value="6573-e7cf-6800-0acf">
           <conditions>
-            <condition field="selections" scope="self" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7997-f051-e359-2f0d" type="greaterThan"/>
+            <condition field="selections" scope="self" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="7997-f051-e359-2f0d" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -734,9 +738,10 @@ Alados de potencia de unidad 5+ deben efectuar un chequeo de pánico igual que s
         <categoryLink id="0fa9-095b-e5ee-e621" name="New CategoryLink" hidden="false" targetId="c647-4209-4e6c-206a" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5d77-2d17-54ce-2001" name="Portaestandarte de batalla" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5d77-2d17-54ce-2001" name="Portaestandarte de batalla" hidden="false" collective="false" import="true" defaultSelectionEntryId="952f-592f-9d4d-36a2">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4c8-4096-75a1-006a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18c6-f585-ec6c-e866" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="7997-f051-e359-2f0d" name="Sí" hidden="false" collective="false" import="true" type="upgrade">
@@ -1151,10 +1156,14 @@ Alados de potencia de unidad 5+ deben efectuar un chequeo de pánico igual que s
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="e0a1-6486-dcfa-7397" name="Armaduras mágicas" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ab0-44fe-91f3-36f3" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="36d9-33f6-bd84-89ea" name="Escudo hechizado" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7d39-4ded-8b75-1f8b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b52-3001-2ac7-7056" type="max"/>
           </constraints>
           <profiles>
             <profile id="8c4c-0a5b-cce4-c493" name="Escudo hechizado" hidden="false" typeId="7895-caab-ea85-11a6" typeName="Armadura">
@@ -1171,10 +1180,14 @@ Alados de potencia de unidad 5+ deben efectuar un chequeo de pánico igual que s
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="ab7d-cdb8-2732-b089" name="Armas mágicas" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d605-2c02-3357-cebd" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="f7f0-7757-80c5-b956" name="Espada de batalla" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9dbd-aa35-c89e-9f60" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c9a-ae9c-8f58-fb37" type="max"/>
           </constraints>
           <profiles>
             <profile id="161b-1de9-d99e-9551" name="Espada de batalla" hidden="false" typeId="83dc-30c1-3c91-3ea4" typeName="Arma">
@@ -1192,6 +1205,7 @@ Alados de potencia de unidad 5+ deben efectuar un chequeo de pánico igual que s
         <selectionEntry id="f612-c8be-2c83-e092" name="Espada del poder" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8134-b76c-a5d6-3584" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7e9-67e0-f8eb-a228" type="max"/>
           </constraints>
           <profiles>
             <profile id="1bea-2c1d-0156-4318" name="Espada del poder" hidden="false" typeId="83dc-30c1-3c91-3ea4" typeName="Arma">
@@ -1209,6 +1223,7 @@ Alados de potencia de unidad 5+ deben efectuar un chequeo de pánico igual que s
         <selectionEntry id="dac0-558c-1047-ec4e" name="Espada veloz" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ae59-d327-c3cf-d222" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="809d-2b1a-6075-0bd6" type="max"/>
           </constraints>
           <profiles>
             <profile id="d710-c358-6861-e982" name="Espada veloz" hidden="false" typeId="83dc-30c1-3c91-3ea4" typeName="Arma">
@@ -1226,6 +1241,7 @@ Alados de potencia de unidad 5+ deben efectuar un chequeo de pánico igual que s
         <selectionEntry id="61db-5729-7f34-6183" name="Mordisco de acero" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="60e3-1054-7abb-857d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ebb-db8c-98bc-1bf6" type="max"/>
           </constraints>
           <profiles>
             <profile id="4c68-daac-f5f2-e24f" name="Mordisco de acero" hidden="false" typeId="83dc-30c1-3c91-3ea4" typeName="Arma">
@@ -1247,6 +1263,7 @@ Alados de potencia de unidad 5+ deben efectuar un chequeo de pánico igual que s
         <selectionEntry id="a8d7-598b-1056-72f9" name="Estandarte de guerra" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cc87-d24f-2227-52d5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab68-e662-9e0c-25ac" type="max"/>
           </constraints>
           <profiles>
             <profile id="3b3e-a039-0f6b-3704" name="Estandarte de guerra" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
@@ -1262,6 +1279,17 @@ Alados de potencia de unidad 5+ deben efectuar un chequeo de pánico igual que s
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="c2d5-0c4b-e3c6-6645" name="Objetos arcanos" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="increment" field="4223-d617-cce7-8085" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ee13-9ff0-2124-4b3b" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a7d4-a7b0-51d4-51a0" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4223-d617-cce7-8085" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="b67f-7a74-b12f-19d0" name="Báculo del hechicero" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1306,10 +1334,14 @@ Alados de potencia de unidad 5+ deben efectuar un chequeo de pánico igual que s
     </selectionEntryGroup>
     <selectionEntryGroup id="de42-df49-db4f-f92e" name="Objetos hechizados" hidden="false" collective="false" import="true"/>
     <selectionEntryGroup id="f13b-46bb-eb4c-1048" name="Talismanes" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fb8-20a3-7567-59b7" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="4189-ad0e-a8c9-cfc3" name="Talismán de protección" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="388b-43a7-46dc-3062" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f17-bb4c-67de-3696" type="max"/>
           </constraints>
           <profiles>
             <profile id="a3ae-5948-9679-fe95" name="Talismán de protección" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
