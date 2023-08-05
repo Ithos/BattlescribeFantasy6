@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataIndex battleScribeVersion="2.03" name="Warhammer_Fantasy-6_Edicion" indexUrl="https://github.com/Ithos/BattlescribeFantasy6/releases/latest/download/index.bsi" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
   <dataIndexEntries>
-    <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion.gstz" dataType="gamesystem" dataId="fd97-5cfe-d46c-03c6" dataName="Warhammer_Fantasy-6_Edicion" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion.gstz" dataType="gamesystem" dataId="fd97-5cfe-d46c-03c6" dataName="Warhammer_Fantasy-6_Edicion" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Warhammer_Fantasy-6ª Edición.gstz" dataType="gamesystem" dataId="fd97-5cfe-d46c-03c6" dataName="Warhammer_Fantasy-6ª Edición " dataBattleScribeVersion="2.03" dataRevision="2"/>
+    <dataIndexEntry filePath="Warhammer_Fantasy-6ª Edición.gstz" dataType="gamesystem" dataId="fd97-5cfe-d46c-03c6" dataName="Warhammer_Fantasy-6ª Edición " dataBattleScribeVersion="2.03" dataRevision="2"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Legion_Demoniaca.catz" dataType="catalogue" dataId="d5d5-5c6e-21d4-b471" dataName="Warhammer_Fantasy-6_Edicion-Legion_Demoniaca" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Reinos_del_Caos_Demonios.catz" dataType="catalogue" dataId="b0a7-8bc8-db26-e347" dataName="Warhammer_Fantasy-6_Edicion-Reinos_del_Caos_Demonios" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Bretonia.catz" dataType="catalogue" dataId="cd8a-87a3-bb46-6004" dataName="Warhammer_Fantasy-6_Edicion-Bretonia" dataBattleScribeVersion="2.03" dataRevision="1"/>
@@ -38,6 +38,7 @@
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Condes_Vampiro.catz" dataType="catalogue" dataId="af58-4303-e5f7-6815" dataName="Warhammer_Fantasy-6_Edicion-Condes_Vampiro" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Enanos.catz" dataType="catalogue" dataId="b1c2-2288-abba-9142" dataName="Warhammer_Fantasy-6_Edicion-Enanos" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Reyes_Funerarios.catz" dataType="catalogue" dataId="93c4-b6ad-9da5-4afc" dataName="Warhammer_Fantasy-6_Edicion-Reyes_Funerarios" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Kislev.catz" dataType="catalogue" dataId="d107-d8d6-28ba-91fb" dataName="Warhammer_Fantasy-6_Edicion-Kislev" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Skaven.catz" dataType="catalogue" dataId="a841-7b20-89a8-91ac" dataName="Warhammer_Fantasy-6_Edicion-Skaven" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Enanos_del_Caos.catz" dataType="catalogue" dataId="cf2c-7980-f2d7-a99d" dataName="Warhammer_Fantasy-6_Edicion_Enanos_del_Caos" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Skaven.catz" dataType="catalogue" dataId="a841-7b20-89a8-91ac" dataName="Warhammer_Fantasy-6_Edicion-Skaven" dataBattleScribeVersion="2.03" dataRevision="1"/>
@@ -77,6 +78,7 @@
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Condes_Vampiro.catz" dataType="catalogue" dataId="af58-4303-e5f7-6815" dataName="Warhammer_Fantasy-6_Edicion-Condes_Vampiro" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Enanos.catz" dataType="catalogue" dataId="b1c2-2288-abba-9142" dataName="Warhammer_Fantasy-6_Edicion-Enanos" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Reyes_Funerarios.catz" dataType="catalogue" dataId="93c4-b6ad-9da5-4afc" dataName="Warhammer_Fantasy-6_Edicion-Reyes_Funerarios" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Kislev.catz" dataType="catalogue" dataId="d107-d8d6-28ba-91fb" dataName="Warhammer_Fantasy-6_Edicion-Kislev" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Skaven.catz" dataType="catalogue" dataId="a841-7b20-89a8-91ac" dataName="Warhammer_Fantasy-6_Edicion-Skaven" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Enanos_del_Caos.catz" dataType="catalogue" dataId="cf2c-7980-f2d7-a99d" dataName="Warhammer_Fantasy-6_Edicion_Enanos_del_Caos" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Skaven.catz" dataType="catalogue" dataId="a841-7b20-89a8-91ac" dataName="Warhammer_Fantasy-6_Edicion-Skaven" dataBattleScribeVersion="2.03" dataRevision="1"/>
