@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bdda-2664-030d-2f91" name="Warhammer_Fantasy-6_Edicion-Culto_de_Ulric " revision="1" battleScribeVersion="2.03" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bdda-2664-030d-2f91" name="Warhammer_Fantasy-6_Edicion-Culto_de_Ulric " revision="1" battleScribeVersion="2.03" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="9899-3f01-b9dc-177e" name="Guerreros de Ulric" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -9762,6 +9762,219 @@ También puedes incluir a los Gallos de Pelea de Lumpin’ Croop como unidad Sin
                 <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="90.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="9539-b574-c47f-e8b3" name="Legión del grifo " hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd4d-cd70-a554-6156" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="43cd-1bb8-7f3d-5349" name="Lancero del grifo" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+                  <characteristics>
+                    <characteristic name="M" typeId="2d56-9cad-9242-37bd"/>
+                    <characteristic name="HA" typeId="c87b-b820-6a47-1354">4</characteristic>
+                    <characteristic name="HP" typeId="8ab7-c800-6644-f5ec">3</characteristic>
+                    <characteristic name="F" typeId="79c2-0368-3eed-76b4">4</characteristic>
+                    <characteristic name="R" typeId="30bd-8385-2b51-e039">3</characteristic>
+                    <characteristic name="H" typeId="a41f-60f6-2336-73ab">1</characteristic>
+                    <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">4</characteristic>
+                    <characteristic name="A" typeId="6b2b-37c4-6774-748b">1</characteristic>
+                    <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">8</characteristic>
+                    <characteristic name="TSA" typeId="2532-2940-06ec-7a6e">3+</characteristic>
+                    <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Infantería</characteristic>
+                    <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">1</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="552a-b856-8833-d8e7" name="Paladín lancero del grifo" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+                  <characteristics>
+                    <characteristic name="M" typeId="2d56-9cad-9242-37bd"/>
+                    <characteristic name="HA" typeId="c87b-b820-6a47-1354">4</characteristic>
+                    <characteristic name="HP" typeId="8ab7-c800-6644-f5ec">3</characteristic>
+                    <characteristic name="F" typeId="79c2-0368-3eed-76b4">4</characteristic>
+                    <characteristic name="R" typeId="30bd-8385-2b51-e039">3</characteristic>
+                    <characteristic name="H" typeId="a41f-60f6-2336-73ab">1</characteristic>
+                    <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">4</characteristic>
+                    <characteristic name="A" typeId="6b2b-37c4-6774-748b">2</characteristic>
+                    <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">8</characteristic>
+                    <characteristic name="TSA" typeId="2532-2940-06ec-7a6e">3+</characteristic>
+                    <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Infantería</characteristic>
+                    <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">1</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="e2ab-d0c2-603e-dcb8" name="Caballo de guerra" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+                  <characteristics>
+                    <characteristic name="M" typeId="2d56-9cad-9242-37bd">20</characteristic>
+                    <characteristic name="HA" typeId="c87b-b820-6a47-1354">3</characteristic>
+                    <characteristic name="HP" typeId="8ab7-c800-6644-f5ec"/>
+                    <characteristic name="F" typeId="79c2-0368-3eed-76b4">3</characteristic>
+                    <characteristic name="R" typeId="30bd-8385-2b51-e039"/>
+                    <characteristic name="H" typeId="a41f-60f6-2336-73ab"/>
+                    <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">3</characteristic>
+                    <characteristic name="A" typeId="6b2b-37c4-6774-748b">1</characteristic>
+                    <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">5</characteristic>
+                    <characteristic name="TSA" typeId="2532-2940-06ec-7a6e">+1</characteristic>
+                    <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Caballería</characteristic>
+                    <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">2 (1+1 por el jinete)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="72e1-d6bf-ce06-9c6d" name="Carga gloriosa" hidden="false">
+                  <description>Cualquier unidad que reciba una carga de una unidad de Lanceros
+Alados de potencia de unidad 5+ deben efectuar un chequeo de pánico igual que si hubiera sido cargada por el flanco mientras estuviera trabada.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="4601-67bc-2af6-f8ef" name="Unidades de mercenarios en otros ejércitos" hidden="false" targetId="5b0a-7b18-6580-99e1" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="861a-d0db-d03c-a87d" name="Unidad singular" hidden="false" targetId="184a-30ec-bf7c-b603" primary="false"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="4a2a-6791-1b1e-5e27" name="Grupo de mando" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69d1-277f-bba9-daf6" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="ae0b-f1e9-0c7d-fd10" name="Músico" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b241-fc6f-8dc5-3f71" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="8.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="648d-465a-8f6f-4e3a" name="Portaestandarte" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80cb-7898-1e4f-8a6a" type="max"/>
+                      </constraints>
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="7cae-9cba-d761-6f65" name="Portaestandarte mágico" hidden="false" collective="false" import="true">
+                          <constraints>
+                            <constraint field="53ea-00f4-9046-81ff" scope="parent" value="50.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4c67-8a1e-5a9d-cc3b" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f19-de56-26f2-0085" type="max"/>
+                          </constraints>
+                          <entryLinks>
+                            <entryLink id="5095-89d6-ed5a-35b1" name="Estandartes mágicos (Legión del grifo)" hidden="false" collective="false" import="true" targetId="0296-c27e-a9ce-13aa" type="selectionEntryGroup"/>
+                          </entryLinks>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <costs>
+                        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="16.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="b6b3-9b86-7f8a-c371" name="Paladín lancero del grifo" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cae-e7ed-aa35-4547" type="max"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="3a1f-42fb-b0f0-2a0c" name="Sustituye la lanza por una pistola (opcional)" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ddc-509b-0d30-d0fa" type="max"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink id="93b3-f046-30a3-4c74" name="Pistola (disparo)" hidden="false" targetId="3cc9-65b6-1e88-d162" type="profile"/>
+                            <infoLink id="f650-2d12-af66-25f6" name="Pistola (cuerpo a cuerpo)" hidden="false" targetId="1108-0dac-9a06-ddc7" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <costs>
+                        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="16.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="a18b-8e68-9702-9a24" name="Lanceros del grifo" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7496-0010-2d79-a48f" type="min"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="0baf-1a70-9e6f-5a1e" name="Armas" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25f8-e0bd-9dfd-d44b" type="max"/>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a7e-8977-070a-b76b" type="min"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="cf67-41c6-6086-e8ed" name="Arma de mano" hidden="false" collective="true" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bc9-347c-cfb1-a89b" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3063-45d4-c03d-16ba" type="min"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink id="8162-b3f9-cb4f-7a1b" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="93be-1dd2-9f1f-e17b" name="Lanza de caballería" hidden="false" collective="true" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87fa-c422-b7bf-246e" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a49-50a7-213d-c6f7" type="min"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink id="218e-2233-a1bc-e0b7" name="Lanza de caballería" hidden="false" targetId="5bcd-ff0b-d571-38d0" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup id="bbbe-5754-19b5-42c8" name="Armadura" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2d6-5248-8fae-9f20" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b27e-ab95-cd2a-2eec" type="min"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="ef60-e485-2344-1bff" name="Armadura pesada" hidden="false" collective="true" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6e7-427b-77f7-f165" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e44f-1faa-202e-51c9" type="min"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink id="9766-6fa3-e86d-bcb9" name="Armadura pesada" hidden="false" targetId="dfbb-a75f-240a-704f" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup id="edea-ee49-8c6c-ef42" name="Escudo" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a87-58f3-67c8-664e" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f879-8b32-6d00-4a65" type="min"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="f0a1-760b-1eb8-fac5" name="Escudo" hidden="false" collective="true" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4914-b0e4-f7f5-0200" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bae9-11cf-1ca1-45ee" type="min"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink id="2f5c-feff-7314-2101" name="Escudo" hidden="false" targetId="1e84-3cd7-87ca-0372" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <costs>
+                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="26.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -9826,6 +10039,134 @@ También puedes incluir a los Gallos de Pelea de Lumpin’ Croop como unidad Sin
       </infoLinks>
       <costs>
         <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6d53-e00e-dcae-1fe2" name="Estandarte de guerra" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2650-c1e6-a04f-f6b3" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6be-792b-ea50-91c1" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9cc2-efd3-791b-93c7" name="Estandarte de guerra" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
+          <characteristics>
+            <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">+1 a la resolución de combate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a5d0-144c-df64-a404" name="Estandarte de Middenheim" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="daae-899d-1617-4430" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46f9-053e-3bef-d8ab" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8409-b5fe-22dd-46e1" name="Estandarte de Middenheim" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
+          <characteristics>
+            <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">La unidad que porta este estandarte es inmune a miedo y terror</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ea26-409e-4a01-8c93" name="Estandarte de salvaguarda arcana" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2f24-9532-5141-5bdf" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbd0-bb55-1e91-ec5c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="799f-05e0-c84d-773b" name="Estandarte de salvaguarda arcana" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
+          <characteristics>
+            <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">El portador y su unidad obtienen resistencia a la magia (2).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c497-3061-b8c2-f3c1" name="Estandarte de Ulric" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ea44-346b-6007-b06d" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d250-19fe-88e3-f47a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="3ffd-485d-055c-62b7" name="Estandarte de Ulric" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
+          <characteristics>
+            <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">Sólo Caballeros del Lobo Blanco. La unidad causa miedo, pero ni es inmune a sus efectos ni desmoralizará automáticamente a un enemigo inferior en número derrotado en combate.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="79cb-8267-ce98-eb0a" name="Estandarte del deber" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fe19-8ec9-ebe1-90a0" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4ab-cfcd-ebfa-990b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="fe8d-b3e4-8536-21a9" name="Estandarte del deber" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
+          <characteristics>
+            <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">El portador y la unidad donde esté pueden repetir las tiradas para reagrupar fallidas.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="db13-d63f-01b0-f5d3" name="Estandarte del Lobo Blanco" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="92ee-f922-903e-7ece" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d1a-4997-e63f-0797" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="453e-d8a3-f48d-6778" name="Estandarte del Lobo Blanco" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
+          <characteristics>
+            <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">Los proyectiles que impacten a la unidad que porta este estandarte pierden 1 punto de fuerza</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6c2b-20b2-d115-a054" name="Estandarte del valor" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="99e2-31b5-889d-95e9" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18cc-9a76-e010-cb24" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4c4d-edb9-53c6-ef54" name="Estandarte del valor" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
+          <characteristics>
+            <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">El portador y la unidad donde esté son inmunes al pánico.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c585-5c7d-f482-efdc" name="Estandarte del verdadero guerrero" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6036-07b5-5706-891e" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33c9-926a-42fb-d3ff" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0962-0456-6a05-c201" name="Estandarte del verdadero guerrero" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
+          <characteristics>
+            <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">Si la unidad portadora pierde un combate reduce sus negativos en el chequeo de desmoralización en 1D3.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="35.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -10136,136 +10477,16 @@ También puedes incluir a los Gallos de Pelea de Lumpin’ Croop como unidad Sin
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c040-a1f5-19de-048e" type="max"/>
       </constraints>
-      <selectionEntries>
-        <selectionEntry id="e494-d919-8d14-e909" name="Estandarte de guerra" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="824d-fbc1-b9c7-e7c5" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b649-302d-8272-1c7c" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="84e4-fbfd-d86d-e528" name="Estandarte de guerra" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
-              <characteristics>
-                <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">+1 a la resolución de combate</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d372-e20a-4478-81a3" name="Estandarte de salvaguarda arcana" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5373-ab41-cb41-2ebf" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="389e-61d0-24d1-2610" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="c7a6-e956-bab7-4410" name="Estandarte de salvaguarda arcana" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
-              <characteristics>
-                <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">El portador y su unidad obtienen resistencia a la magia (2).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="40.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e564-e87a-8093-884e" name="Estandarte de Ulric" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c5c5-086f-38b6-69b5" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd12-c9f1-420c-b195" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="65bb-bd38-88b1-7d77" name="Estandarte de Ulric" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
-              <characteristics>
-                <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">Sólo Caballeros del Lobo Blanco. La unidad causa miedo, pero ni es inmune a sus efectos ni desmoralizará automáticamente a un enemigo inferior en número derrotado en combate.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="50.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3e79-778e-76c0-5004" name="Estandarte del deber" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6108-5e14-da4c-067a" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96d5-3d99-1f27-c925" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="8f4f-a420-2ac6-f370" name="Estandarte del deber" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
-              <characteristics>
-                <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">El portador y la unidad donde esté pueden repetir las tiradas para reagrupar fallidas.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="590f-455b-c4ed-b2af" name="Estandarte del valor" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1447-20b9-1c77-12e4" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfcb-29ca-73c9-1dd6" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="a338-62b4-d729-f40a" name="Estandarte del valor" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
-              <characteristics>
-                <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">El portador y la unidad donde esté son inmunes al pánico.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="40.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="7604-78f8-6829-a7a6" name="Estandarte de Middenheim" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e553-5682-ef21-88b4" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f29-d0b6-2648-4f23" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="a182-c4dc-640d-934a" name="Estandarte de Middenheim" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
-              <characteristics>
-                <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">La unidad que porta este estandarte es inmune a miedo y terror</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="40.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="bcfb-e11d-b36c-a845" name="Estandarte del Lobo Blanco" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bd94-f3d0-043f-a5e7" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91c9-562b-e3d8-3a09" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="39b7-443c-bb84-b3b0" name="Estandarte del Lobo Blanco" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
-              <characteristics>
-                <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">Los proyectiles que impacten a la unidad que porta este estandarte pierden 1 punto de fuerza</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="40.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5132-e5ad-22dc-3261" name="Estandarte del verdadero guerrero" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ab31-24e3-e7b4-9161" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a6b-3c85-f048-eaba" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="2387-3323-ed4a-02b5" name="Estandarte del verdadero guerrero" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
-              <characteristics>
-                <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">Si la unidad portadora pierde un combate reduce sus negativos en el chequeo de desmoralización en 1D3.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="35.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <entryLinks>
+        <entryLink id="5c1b-0c2d-574e-a96c" name="Estandarte de guerra" hidden="false" collective="false" import="true" targetId="6d53-e00e-dcae-1fe2" type="selectionEntry"/>
+        <entryLink id="f6e7-18c2-3ca1-4c5f" name="Estandarte de Middenheim" hidden="false" collective="false" import="true" targetId="a5d0-144c-df64-a404" type="selectionEntry"/>
+        <entryLink id="f2de-85cd-5a20-c1b2" name="Estandarte de salvaguarda arcana" hidden="false" collective="false" import="true" targetId="ea26-409e-4a01-8c93" type="selectionEntry"/>
+        <entryLink id="17b8-4240-ef82-ab9b" name="Estandarte de Ulric" hidden="false" collective="false" import="true" targetId="c497-3061-b8c2-f3c1" type="selectionEntry"/>
+        <entryLink id="ae00-62cb-d887-a981" name="Estandarte del deber" hidden="false" collective="false" import="true" targetId="79cb-8267-ce98-eb0a" type="selectionEntry"/>
+        <entryLink id="20bd-1f2c-3e3e-16d9" name="Estandarte del Lobo Blanco" hidden="false" collective="false" import="true" targetId="db13-d63f-01b0-f5d3" type="selectionEntry"/>
+        <entryLink id="8a83-a1a4-9a79-28ff" name="Estandarte del valor" hidden="false" collective="false" import="true" targetId="6c2b-20b2-d115-a054" type="selectionEntry"/>
+        <entryLink id="60d6-2473-c210-d8d9" name="Estandarte del verdadero guerrero" hidden="false" collective="false" import="true" targetId="c585-5c7d-f482-efdc" type="selectionEntry"/>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="5d8f-c2f0-939c-d408" name="Armaduras mágicas" hidden="false" collective="false" import="true">
       <constraints>
@@ -10860,6 +11081,20 @@ Un sacerdote no puede entonar más de una plegaria adicional cada turno de ningu
           </costs>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0296-c27e-a9ce-13aa" name="Estandartes mágicos (Legión del grifo)" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="084c-908a-d0b6-e9e7" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="8ef0-1f40-a530-4f03" name="Estandarte de guerra" hidden="false" collective="false" import="true" targetId="6d53-e00e-dcae-1fe2" type="selectionEntry"/>
+        <entryLink id="079c-866e-5f2a-ba30" name="Estandarte de Middenheim" hidden="false" collective="false" import="true" targetId="a5d0-144c-df64-a404" type="selectionEntry"/>
+        <entryLink id="2a75-6e32-5ddf-89d2" name="Estandarte de salvaguarda arcana" hidden="false" collective="false" import="true" targetId="ea26-409e-4a01-8c93" type="selectionEntry"/>
+        <entryLink id="e068-3e9a-91df-e946" name="Estandarte del deber" hidden="false" collective="false" import="true" targetId="79cb-8267-ce98-eb0a" type="selectionEntry"/>
+        <entryLink id="158c-3085-f8e9-6e42" name="Estandarte del Lobo Blanco" hidden="false" collective="false" import="true" targetId="db13-d63f-01b0-f5d3" type="selectionEntry"/>
+        <entryLink id="c30c-1798-1103-5107" name="Estandarte del valor" hidden="false" collective="false" import="true" targetId="6c2b-20b2-d115-a054" type="selectionEntry"/>
+        <entryLink id="1085-c4c0-4b6c-d840" name="Estandarte del verdadero guerrero" hidden="false" collective="false" import="true" targetId="c585-5c7d-f482-efdc" type="selectionEntry"/>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>

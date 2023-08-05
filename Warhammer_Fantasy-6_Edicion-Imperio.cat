@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d7c5-1d65-c35a-2131" name="Warhammer_Fantasy-6_Edicion-Imperio" revision="1" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d7c5-1d65-c35a-2131" name="Warhammer_Fantasy-6_Edicion-Imperio" revision="1" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="becf-a2d3-2ca0-14ba" name="Conde elector" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -15908,6 +15908,9 @@ En combate, ten en cuenta que la primera fila no tiene picas (por lo que no atac
 Alados de potencia de unidad 5+ deben efectuar un chequeo de pánico igual que si hubiera sido cargada por el flanco mientras estuviera trabada.</description>
                 </rule>
               </rules>
+              <infoLinks>
+                <infoLink id="0c19-947f-5603-7ad4" name="Unidades de mercenarios en otros ejércitos" hidden="false" targetId="874c-7011-a2c0-5462" type="rule"/>
+              </infoLinks>
               <categoryLinks>
                 <categoryLink id="ea1a-3617-7fe2-024d" name="Unidad singular" hidden="false" targetId="184a-30ec-bf7c-b603" primary="false"/>
               </categoryLinks>
