@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b0a7-8bc8-db26-e347" name="Warhammer_Fantasy-6_Edicion-Reinos_del_Caos_Demonios" revision="1" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b0a7-8bc8-db26-e347" name="Warhammer_Fantasy-6_Edicion-Reinos_del_Caos_Demonios" revision="1" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="794e-d351-4b59-110e" name="Carro de tuskgors" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -19607,7 +19607,7 @@ Puedes incluir a los Orcos Akorazados de Ruglud en cualquier otro ejército de W
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
-                    <selectionEntryGroup id="3361-0002-a296-5308" name="Armas" hidden="false" collective="false" import="true">
+                    <selectionEntryGroup id="3361-0002-a296-5308" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="c7f6-7791-1f3b-a016">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="232f-fb9f-7dd7-6f26" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12b5-5503-484f-8e50" type="min"/>
@@ -19682,7 +19682,7 @@ Puedes incluir a los Orcos Akorazados de Ruglud en cualquier otro ejército de W
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
-                    <selectionEntryGroup id="24b8-0b7c-b1a4-8db2" name="Armas" hidden="false" collective="false" import="true">
+                    <selectionEntryGroup id="24b8-0b7c-b1a4-8db2" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="441e-1893-897e-5c03">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a911-9046-080a-5aeb" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf0a-9d62-2c77-00aa" type="min"/>
@@ -19761,7 +19761,7 @@ Puedes incluir a los Orcos Akorazados de Ruglud en cualquier otro ejército de W
                     </profile>
                   </profiles>
                   <selectionEntryGroups>
-                    <selectionEntryGroup id="d8f0-f12f-8def-6a03" name="Armas" hidden="false" collective="false" import="true">
+                    <selectionEntryGroup id="d8f0-f12f-8def-6a03" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="928e-c4a0-3ac3-2170">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9970-1946-5b2e-301b" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3f6-eee7-204b-1aa5" type="min"/>
@@ -19860,7 +19860,7 @@ Puedes incluir a los Orcos Akorazados de Ruglud en cualquier otro ejército de W
                     </profile>
                   </profiles>
                   <selectionEntryGroups>
-                    <selectionEntryGroup id="84b4-c443-0935-b412" name="Armas" hidden="false" collective="false" import="true">
+                    <selectionEntryGroup id="84b4-c443-0935-b412" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="803f-de2e-d1e1-6261">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9c8-4bf9-40d7-9fa6" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b798-06d1-0091-3451" type="min"/>

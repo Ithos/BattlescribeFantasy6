@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f551-0992-682c-c960" name="Warhammer_Fantasy-6_Edicion-Orcos_y_Goblins" revision="1" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f551-0992-682c-c960" name="Warhammer_Fantasy-6_Edicion-Orcos_y_Goblins" revision="1" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="c76f-cc67-773f-41b7" name="Kaudillo orco negro" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -257,7 +257,7 @@
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
-                        <condition field="selections" scope="f7e3-9ca3-fe82-8500" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bc0b-663a-31a4-df4b" type="greaterThan"/>
+                        <condition field="selections" scope="f7e3-9ca3-fe82-8500" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bc0b-663a-31a4-df4b" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -269,7 +269,7 @@
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
-                        <condition field="selections" scope="f7e3-9ca3-fe82-8500" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bc0b-663a-31a4-df4b" type="equalTo"/>
+                        <condition field="selections" scope="f7e3-9ca3-fe82-8500" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bc0b-663a-31a4-df4b" type="greaterThan"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -920,6 +920,7 @@
                 <selectionEntry id="366b-e7d4-1c29-20cc" name="Rebanadora" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f92d-12fb-0d46-9a25" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f21-acfc-2ae3-8b78" type="min"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="5725-bbb6-b3a2-2d4b" name="Rebanadora" hidden="false" targetId="3807-6a3b-4e94-de2b" type="profile"/>
@@ -939,6 +940,7 @@
                 <selectionEntry id="1ee7-1d41-e2c0-fddc" name="Arco" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a4a-c22b-83c0-5eae" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aca7-fb94-652b-e12a" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="46ef-bb9e-dff1-a904" name="Arco" hidden="false" targetId="dfc2-1321-c679-1bc0" type="profile"/>
@@ -14963,7 +14965,7 @@ Puedes incluir a los Orcos Akorazados de Ruglud en cualquier otro ejército de W
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
-                    <selectionEntryGroup id="a2d2-1643-34a9-342e" name="Armas" hidden="false" collective="false" import="true">
+                    <selectionEntryGroup id="a2d2-1643-34a9-342e" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="11b2-53c8-2c06-9425">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="639b-c3b8-ba41-3e95" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f789-7584-c8fd-38c1" type="min"/>
@@ -15038,7 +15040,7 @@ Puedes incluir a los Orcos Akorazados de Ruglud en cualquier otro ejército de W
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
-                    <selectionEntryGroup id="f057-1032-b332-f703" name="Armas" hidden="false" collective="false" import="true">
+                    <selectionEntryGroup id="f057-1032-b332-f703" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="cef5-9c3e-c3e0-c589">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20a6-e2a5-01b5-3a45" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c1f-7a99-06b1-64d6" type="min"/>
@@ -15117,7 +15119,7 @@ Puedes incluir a los Orcos Akorazados de Ruglud en cualquier otro ejército de W
                     </profile>
                   </profiles>
                   <selectionEntryGroups>
-                    <selectionEntryGroup id="0f50-640c-38d3-64ad" name="Armas" hidden="false" collective="false" import="true">
+                    <selectionEntryGroup id="0f50-640c-38d3-64ad" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="f3d6-2b18-3195-3f5f">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e8a-9868-cfff-a643" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a51-7897-48e9-8d81" type="min"/>
@@ -15216,7 +15218,7 @@ Puedes incluir a los Orcos Akorazados de Ruglud en cualquier otro ejército de W
                     </profile>
                   </profiles>
                   <selectionEntryGroups>
-                    <selectionEntryGroup id="c28b-6f40-ceb9-f4b0" name="Armas" hidden="false" collective="false" import="true">
+                    <selectionEntryGroup id="c28b-6f40-ceb9-f4b0" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="8917-7d4e-3591-cf6e">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bf6-52af-838d-21d5" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22b4-5286-9e7a-b567" type="min"/>
@@ -17277,7 +17279,6 @@ impasable o un edificio, el garrapato y su jinete se espachurran (es retirado co
         <entryLink id="ae0a-1e0c-1ebc-e8e9" name="Eztandarte de zombraz" hidden="false" collective="false" import="true" targetId="94b8-d56c-cf74-9b25" type="selectionEntry"/>
         <entryLink id="8006-b1ec-83c4-6979" name="Eztandarte del beztia de Nogg" hidden="false" collective="false" import="true" targetId="685a-b6dc-2841-eba3" type="selectionEntry"/>
         <entryLink id="90b7-8263-53e8-5d84" name="Eztandarte del Whaaagh de Gorko" hidden="false" collective="false" import="true" targetId="4f93-35c4-892c-7328" type="selectionEntry"/>
-        <entryLink id="66a4-0cd5-57af-7670" name="Gran trapo rojo raído de Rowdy Groti" hidden="false" collective="false" import="true" targetId="5e2f-b860-0f57-f315" type="selectionEntry"/>
         <entryLink id="f169-c6a5-9c61-1af6" name="Trapo de Guff" hidden="false" collective="false" import="true" targetId="f99a-0f79-af7b-e214" type="selectionEntry"/>
         <entryLink id="234a-f46f-4232-0c9e" name="Tótem de Morko" hidden="false" collective="false" import="true" targetId="89e7-9b51-b826-02ca" type="selectionEntry"/>
       </entryLinks>
@@ -17286,8 +17287,8 @@ impasable o un edificio, el garrapato y su jinete se espachurran (es retirado co
       <modifiers>
         <modifier type="increment" field="f30c-84db-44dd-2f45" value="1.0">
           <repeats>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="530b-4c9f-bd12-9b06" repeats="1" roundUp="false"/>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f7e6-d0c8-348a-e970" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="530b-4c9f-bd12-9b06" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f7e6-d0c8-348a-e970" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -17407,8 +17408,8 @@ impasable o un edificio, el garrapato y su jinete se espachurran (es retirado co
       <modifiers>
         <modifier type="increment" field="c598-f896-f7a9-31c8" value="1.0">
           <repeats>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="da73-7ae4-b619-873a" repeats="1" roundUp="false"/>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0840-8168-ab52-6f7e" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="da73-7ae4-b619-873a" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0840-8168-ab52-6f7e" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7ab5-64c7-4c6f-e0e1" name="Warhammer_Fantasy-6_Edicion-Mercenarios" revision="1" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7ab5-64c7-4c6f-e0e1" name="Warhammer_Fantasy-6_Edicion-Mercenarios" revision="1" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="a8ea-6e32-10c0-9f6e" name="Gran hechicero" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -8949,7 +8949,7 @@ Puedes incluir a los Orcos Akorazados de Ruglud en cualquier otro ejército de W
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="47dc-ab66-56f1-fc0f" name="Armas" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="47dc-ab66-56f1-fc0f" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="9ae7-003c-1cfc-82c0">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f57b-7d8f-cfac-b48a" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3ac-9062-8156-70db" type="min"/>
@@ -9024,7 +9024,7 @@ Puedes incluir a los Orcos Akorazados de Ruglud en cualquier otro ejército de W
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="db83-f886-e10f-1cb7" name="Armas" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="db83-f886-e10f-1cb7" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="09a4-6dd8-cb7c-58e6">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dff-01d5-2155-a6e1" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2577-78c8-8a07-51e3" type="min"/>
@@ -9103,7 +9103,7 @@ Puedes incluir a los Orcos Akorazados de Ruglud en cualquier otro ejército de W
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup id="8636-33d7-c29c-19bd" name="Armas" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="8636-33d7-c29c-19bd" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="119b-f6f5-45af-ef3c">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cc1-d235-cd24-8c5b" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf62-e909-8970-d3cb" type="min"/>
