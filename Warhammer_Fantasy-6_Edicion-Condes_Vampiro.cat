@@ -404,7 +404,7 @@
         <infoLink id="aae7-ff65-7089-f1b7" name="Personajes y unidades (si uno de los dos es No Muerto y el otro no)" hidden="false" targetId="a259-f8a4-4181-1bc4" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5f44-a04c-4452-3ca0" name="New CategoryLink" hidden="false" targetId="c647-4209-4e6c-206a" primary="true"/>
+        <categoryLink id="309b-356e-2814-450a" name="Héroe (no puede ser general)" hidden="false" targetId="6573-e7cf-6800-0acf" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4676-c81d-b418-264a" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
@@ -541,7 +541,7 @@ de las armas). Sin embargo, si usa arma mágica se pierde.</description>
         <infoLink id="d062-05cc-6246-3ac0" name="Personajes y unidades (si uno de los dos es No Muerto y el otro no)" hidden="false" targetId="a259-f8a4-4181-1bc4" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="a4a0-0826-f2b5-f63f" name="New CategoryLink" hidden="false" targetId="c647-4209-4e6c-206a" primary="true"/>
+        <categoryLink id="d73f-b5d7-6fa9-e800" name="Héroe (no puede ser general)" hidden="false" targetId="6573-e7cf-6800-0acf" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="3362-0f1d-d766-0cfd" name="Portaestandarte de batalla" hidden="false" collective="false" import="true">
@@ -1469,7 +1469,7 @@ de las armas). Sin embargo, si usa arma mágica se pierde.</description>
         <infoLink id="9536-40d9-e4d7-c44d" name="Personajes y unidades (si uno de los dos es No Muerto y el otro no)" hidden="false" targetId="a259-f8a4-4181-1bc4" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="bec5-b938-cea6-badc" name="New CategoryLink" hidden="false" targetId="c647-4209-4e6c-206a" primary="true"/>
+        <categoryLink id="bc6c-c28a-c7af-b900" name="Héroe (no puede ser general)" hidden="false" targetId="6573-e7cf-6800-0acf" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="dfec-5dee-80ec-bbd2" name="Portaestandarte de batalla" hidden="false" collective="false" import="true">
@@ -2232,7 +2232,7 @@ de las armas). Sin embargo, si usa arma mágica se pierde.</description>
         <infoLink id="070a-0ed1-70ca-3943" name="Personajes y unidades (si uno de los dos es No Muerto y el otro no)" hidden="false" targetId="a259-f8a4-4181-1bc4" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="00a5-cf6c-b408-0348" name="New CategoryLink" hidden="false" targetId="c647-4209-4e6c-206a" primary="true"/>
+        <categoryLink id="a056-ff4c-703b-b1b8" name="Héroe (no puede ser general)" hidden="false" targetId="6573-e7cf-6800-0acf" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="d081-8103-535c-8cb4" name="Portaestandarte de batalla" hidden="false" collective="false" import="true">
@@ -2852,6 +2852,16 @@ de las armas). Sin embargo, si usa arma mágica se pierde.</description>
             <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f0d2-e3fe-8087-ce61" type="lessThan"/>
           </conditions>
         </modifier>
+        <modifier type="remove" field="category" value="6573-e7cf-6800-0acf">
+          <conditions>
+            <condition field="selections" scope="self" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="52db-4f0f-96ac-279d" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" field="category" value="c647-4209-4e6c-206a">
+          <conditions>
+            <condition field="selections" scope="self" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="52db-4f0f-96ac-279d" type="greaterThan"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9550-3aaf-3bc1-2982" type="max"/>
@@ -2880,7 +2890,7 @@ de las armas). Sin embargo, si usa arma mágica se pierde.</description>
         <infoLink id="22c7-4a6b-4b83-9f7a" name="Personajes y unidades (si uno de los dos es No Muerto y el otro no)" hidden="false" targetId="a259-f8a4-4181-1bc4" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7235-494d-95d7-6142" name="New CategoryLink" hidden="false" targetId="c647-4209-4e6c-206a" primary="true"/>
+        <categoryLink id="1faa-b5de-2aa7-7731" name="Héroe (no puede ser general)" hidden="false" targetId="6573-e7cf-6800-0acf" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="e533-7252-8db2-c5bf" name="Portaestandarte de batalla" hidden="false" collective="false" import="true">
@@ -3447,7 +3457,7 @@ de las armas). Sin embargo, si usa arma mágica se pierde.</description>
         <infoLink id="957b-cf18-f163-a499" name="Personajes y unidades (si uno de los dos es No Muerto y el otro no)" hidden="false" targetId="a259-f8a4-4181-1bc4" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="be90-6a2e-0caa-ef5d" name="New CategoryLink" hidden="false" targetId="c647-4209-4e6c-206a" primary="true"/>
+        <categoryLink id="1ff2-1f2c-ce33-673a" name="Héroe (no puede ser general)" hidden="false" targetId="6573-e7cf-6800-0acf" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="bf64-f696-dd21-d81d" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
@@ -4006,7 +4016,7 @@ de las armas). Sin embargo, si usa arma mágica se pierde.</description>
         <infoLink id="6290-8fc0-3478-e885" name="Personajes y unidades (si uno de los dos es No Muerto y el otro no)" hidden="false" targetId="a259-f8a4-4181-1bc4" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c4a9-e0e1-19a8-4922" name="New CategoryLink" hidden="false" targetId="c647-4209-4e6c-206a" primary="true"/>
+        <categoryLink id="a51c-b37c-f1ee-924a" name="Héroe (no puede ser general)" hidden="false" targetId="6573-e7cf-6800-0acf" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="394a-74cd-0f35-551f" name="Portaestandarte de batalla" hidden="false" collective="false" import="true">
