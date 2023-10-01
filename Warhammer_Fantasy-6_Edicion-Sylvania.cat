@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8e3a-fa51-e7b6-0a23" name="Warhammer_Fantasy-6_Edicion-Sylvania" revision="2" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8e3a-fa51-e7b6-0a23" name="Warhammer_Fantasy-6_Edicion-Sylvania" revision="3" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="2ccb-ef2d-b6d1-824a" name="Espectro" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -735,8 +735,15 @@ de las armas). Sin embargo, si usa arma mágica se pierde.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="d2e3-4a84-adf9-7b76" name="Conde Von Carstein" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="ffb1-c34b-7630-febe" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f3dc-733d-1843-87d3" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9999-df87-0807-3e62" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffb1-c34b-7630-febe" type="min"/>
       </constraints>
       <profiles>
         <profile id="a5bd-4960-a7bd-b77f" name="Conde Von Carstein" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
@@ -948,6 +955,11 @@ de las armas). Sin embargo, si usa arma mágica se pierde.</description>
         <modifier type="set-primary" field="category" value="6573-e7cf-6800-0acf">
           <conditions>
             <condition field="selections" scope="self" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="212a-99c3-998f-3fa7" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="62d8-ccd9-f7a4-3e9d" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="212a-99c3-998f-3fa7" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1416,24 +1428,12 @@ de las armas). Sin embargo, si usa arma mágica se pierde.</description>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="7cec-30e0-605f-5e2c" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="f618-b39a-5e12-f6ec">
+            <selectionEntryGroup id="7cec-30e0-605f-5e2c" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="85af-d014-af37-b55a">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1358-80f7-31b6-c044" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1358-80f7-31b6-c044" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9340-18e0-8639-d90c" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="f618-b39a-5e12-f6ec" name="Arma de mano" hidden="false" collective="true" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7621-2b72-3a87-136e" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f1a-7571-3edc-f333" type="min"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="d539-ad94-b0e9-80f3" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
-                  </costs>
-                </selectionEntry>
                 <selectionEntry id="85af-d014-af37-b55a" name="Lanza (infantería)" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb18-192c-a5b3-141b" type="max"/>
@@ -2697,24 +2697,12 @@ de las armas). Sin embargo, si usa arma mágica se pierde.</description>
             <constraint field="selections" scope="parent" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e417-58ac-a6d1-08e0" type="max"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup id="68e3-e35d-0b6d-2d3a" name="Armas" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="68e3-e35d-0b6d-2d3a" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="9f8f-df00-4d61-7ad6">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0143-7eac-6769-95c5" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0143-7eac-6769-95c5" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7383-5581-8128-6f10" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="995f-6121-4682-4f91" name="Arma de mano" hidden="false" collective="true" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b074-ecd3-be94-d83a" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3c2-dd1d-4627-566b" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="e7aa-bef1-dbbb-2fb8" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
-                  </costs>
-                </selectionEntry>
                 <selectionEntry id="a2f9-02fd-3bbd-b447" name="Alabarda" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbee-0192-7026-34c9" type="max"/>
