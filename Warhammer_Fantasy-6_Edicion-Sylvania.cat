@@ -994,9 +994,10 @@ de las armas). Sin embargo, si usa arma mágica se pierde.</description>
         <categoryLink id="c4a9-e0e1-19a8-4922" name="New CategoryLink" hidden="false" targetId="c647-4209-4e6c-206a" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="394a-74cd-0f35-551f" name="Portaestandarte de batalla" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="394a-74cd-0f35-551f" name="Portaestandarte de batalla" hidden="false" collective="false" import="true" defaultSelectionEntryId="5240-1dc9-d8d1-c09a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dcb-b279-11d4-eb04" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f489-fe31-cb54-5b41" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="212a-99c3-998f-3fa7" name="Sí" hidden="false" collective="false" import="true" type="upgrade">

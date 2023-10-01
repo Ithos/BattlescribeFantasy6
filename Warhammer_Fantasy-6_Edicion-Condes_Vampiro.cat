@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="af58-4303-e5f7-6815" name="Warhammer_Fantasy-6_Edicion-Condes_Vampiro" revision="1" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="af58-4303-e5f7-6815" name="Warhammer_Fantasy-6_Edicion-Condes_Vampiro" revision="2" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="92e8-3112-6546-6321" name="Maestro nigromante" hidden="false" collective="false" import="true" type="model">
       <modifiers>
@@ -1472,9 +1472,10 @@ de las armas). Sin embargo, si usa arma mágica se pierde.</description>
         <categoryLink id="bc6c-c28a-c7af-b900" name="Héroe (no puede ser general)" hidden="false" targetId="6573-e7cf-6800-0acf" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="dfec-5dee-80ec-bbd2" name="Portaestandarte de batalla" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="dfec-5dee-80ec-bbd2" name="Portaestandarte de batalla" hidden="false" collective="false" import="true" defaultSelectionEntryId="071b-ce78-7887-0dea">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6fb-6eef-397f-9e0d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d0d-5584-1fc5-141e" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="e071-0f56-03b1-a912" name="Sí" hidden="false" collective="false" import="true" type="upgrade">
@@ -2235,9 +2236,10 @@ de las armas). Sin embargo, si usa arma mágica se pierde.</description>
         <categoryLink id="a056-ff4c-703b-b1b8" name="Héroe (no puede ser general)" hidden="false" targetId="6573-e7cf-6800-0acf" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d081-8103-535c-8cb4" name="Portaestandarte de batalla" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="d081-8103-535c-8cb4" name="Portaestandarte de batalla" hidden="false" collective="false" import="true" defaultSelectionEntryId="39b5-f9d2-b8d9-17d9">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfc0-2e7a-3cc7-908c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32ed-fe9c-53be-d04f" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="2c84-f5f0-69e1-3554" name="Sí" hidden="false" collective="false" import="true" type="upgrade">
@@ -2893,9 +2895,10 @@ de las armas). Sin embargo, si usa arma mágica se pierde.</description>
         <categoryLink id="1faa-b5de-2aa7-7731" name="Héroe (no puede ser general)" hidden="false" targetId="6573-e7cf-6800-0acf" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e533-7252-8db2-c5bf" name="Portaestandarte de batalla" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e533-7252-8db2-c5bf" name="Portaestandarte de batalla" hidden="false" collective="false" import="true" defaultSelectionEntryId="3123-b463-0fbc-3650">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48fa-b9bb-9da8-f92d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a74-385a-a8a1-b44c" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="b7bf-e4ea-6702-4c3e" name="Sí" hidden="false" collective="false" import="true" type="upgrade">
@@ -4019,9 +4022,10 @@ de las armas). Sin embargo, si usa arma mágica se pierde.</description>
         <categoryLink id="a51c-b37c-f1ee-924a" name="Héroe (no puede ser general)" hidden="false" targetId="6573-e7cf-6800-0acf" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="394a-74cd-0f35-551f" name="Portaestandarte de batalla" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="394a-74cd-0f35-551f" name="Portaestandarte de batalla" hidden="false" collective="false" import="true" defaultSelectionEntryId="5240-1dc9-d8d1-c09a">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dcb-b279-11d4-eb04" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60a0-f7ae-1071-c148" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="212a-99c3-998f-3fa7" name="Sí" hidden="false" collective="false" import="true" type="upgrade">
