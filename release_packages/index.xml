@@ -42,6 +42,7 @@
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Reyes_Funerarios.catz" dataType="catalogue" dataId="93c4-b6ad-9da5-4afc" dataName="Warhammer_Fantasy-6_Edicion-Reyes_Funerarios" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Imperio.catz" dataType="catalogue" dataId="d7c5-1d65-c35a-2131" dataName="Warhammer_Fantasy-6_Edicion-Imperio" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Reinos_del_Caos_Bestias.catz" dataType="catalogue" dataId="3c7d-2907-6b62-936e" dataName="Warhammer_Fantasy-6_Edicion-Reinos_del_Caos_Bestias" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Cruzados_noveles.catz" dataType="catalogue" dataId="5c46-61eb-40fa-ece3" dataName="Warhammer_Fantasy-6_Edicion-Cruzados_noveles" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Elfos_Silvanos.catz" dataType="catalogue" dataId="712f-e863-4d8b-f9aa" dataName="Warhammer_Fantasy-6_Edicion-Elfos_Silvanos" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Legion_Demoniaca.catz" dataType="catalogue" dataId="d5d5-5c6e-21d4-b471" dataName="Warhammer_Fantasy-6_Edicion-Legion_Demoniaca" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Culto_de_Slaanesh.catz" dataType="catalogue" dataId="620c-21ba-411c-9c2a" dataName="Warhammer_Fantasy-6_Edicion-Culto_de_Slaanesh" dataBattleScribeVersion="2.03" dataRevision="1"/>
@@ -51,7 +52,6 @@
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Mercenarios.catz" dataType="catalogue" dataId="7ab5-64c7-4c6f-e0e1" dataName="Warhammer_Fantasy-6_Edicion-Mercenarios" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Enanos.catz" dataType="catalogue" dataId="b1c2-2288-abba-9142" dataName="Warhammer_Fantasy-6_Edicion-Enanos" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Skaven.catz" dataType="catalogue" dataId="a841-7b20-89a8-91ac" dataName="Warhammer_Fantasy-6_Edicion-Skaven" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Cruzados noveles.catz" dataType="catalogue" dataId="5c46-61eb-40fa-ece3" dataName="Warhammer_Fantasy-6_Edicion-Cruzados noveles" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Legion_Demoniaca.catz" dataType="catalogue" dataId="d5d5-5c6e-21d4-b471" dataName="Warhammer_Fantasy-6_Edicion-Legion_Demoniaca" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Enanos_matadores_de_Karak_Kadrin.catz" dataType="catalogue" dataId="17ad-e629-0e7d-8faa" dataName="Warhammer_Fantasy-6_Edicion-Enanos_matadores_de_Karak_Kadrin" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Elfos_Oscuros.catz" dataType="catalogue" dataId="88fd-bc7b-a990-f36e" dataName="Warhammer_Fantasy-6_Edicion-Elfos_Oscuros" dataBattleScribeVersion="2.03" dataRevision="1"/>
@@ -91,6 +91,7 @@
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Reyes_Funerarios.catz" dataType="catalogue" dataId="93c4-b6ad-9da5-4afc" dataName="Warhammer_Fantasy-6_Edicion-Reyes_Funerarios" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Imperio.catz" dataType="catalogue" dataId="d7c5-1d65-c35a-2131" dataName="Warhammer_Fantasy-6_Edicion-Imperio" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Reinos_del_Caos_Bestias.catz" dataType="catalogue" dataId="3c7d-2907-6b62-936e" dataName="Warhammer_Fantasy-6_Edicion-Reinos_del_Caos_Bestias" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Cruzados_noveles.catz" dataType="catalogue" dataId="5c46-61eb-40fa-ece3" dataName="Warhammer_Fantasy-6_Edicion-Cruzados_noveles" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Elfos_Silvanos.catz" dataType="catalogue" dataId="712f-e863-4d8b-f9aa" dataName="Warhammer_Fantasy-6_Edicion-Elfos_Silvanos" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Legion_Demoniaca.catz" dataType="catalogue" dataId="d5d5-5c6e-21d4-b471" dataName="Warhammer_Fantasy-6_Edicion-Legion_Demoniaca" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Culto_de_Slaanesh.catz" dataType="catalogue" dataId="620c-21ba-411c-9c2a" dataName="Warhammer_Fantasy-6_Edicion-Culto_de_Slaanesh" dataBattleScribeVersion="2.03" dataRevision="1"/>
@@ -100,6 +101,5 @@
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Mercenarios.catz" dataType="catalogue" dataId="7ab5-64c7-4c6f-e0e1" dataName="Warhammer_Fantasy-6_Edicion-Mercenarios" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Enanos.catz" dataType="catalogue" dataId="b1c2-2288-abba-9142" dataName="Warhammer_Fantasy-6_Edicion-Enanos" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Skaven.catz" dataType="catalogue" dataId="a841-7b20-89a8-91ac" dataName="Warhammer_Fantasy-6_Edicion-Skaven" dataBattleScribeVersion="2.03" dataRevision="1"/>
-    <dataIndexEntry filePath="Warhammer_Fantasy-6_Edicion-Cruzados noveles.catz" dataType="catalogue" dataId="5c46-61eb-40fa-ece3" dataName="Warhammer_Fantasy-6_Edicion-Cruzados noveles" dataBattleScribeVersion="2.03" dataRevision="1"/>
   </dataIndexEntries>
 </dataIndex>
