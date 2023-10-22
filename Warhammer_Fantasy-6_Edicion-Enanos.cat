@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b1c2-2288-abba-9142" name="Warhammer_Fantasy-6_Edicion-Enanos" revision="1" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b1c2-2288-abba-9142" name="Warhammer_Fantasy-6_Edicion-Enanos" revision="2" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="7a7d-0d8b-93d0-45c4" name="Señor de los enanos" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -3927,6 +3927,24 @@ el dado de artillería en pulgadas*; eso determina el número de impactos; los i
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
+            <selectionEntryGroup id="2efa-d784-081a-1df0" name="Arma de proyectiles" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b90b-0aa3-91dc-9bc3" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="05d4-ba00-6865-2378" name="Hachas Arrojadizas" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af7e-a8d9-4e8a-ce24" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="62ab-cf79-3815-367d" name="Hacha arrojadiza" hidden="false" targetId="d0b8-838e-926b-380a" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="12.0"/>
@@ -4082,6 +4100,24 @@ el dado de artillería en pulgadas*; eso determina el número de impactos; los i
                   </constraints>
                   <infoLinks>
                     <infoLink id="f1f5-3385-88e7-2761" name="Escudo" hidden="false" targetId="1e84-3cd7-87ca-0372" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="da2d-ccdf-2289-df42" name="Arma de proyectiles" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ed8-96ff-41f0-483f" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="8364-a59d-c65a-7fe6" name="Hachas Arrojadizas" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd88-1527-0d3b-8ec7" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="f78f-c5b3-e304-4017" name="Hacha arrojadiza" hidden="false" targetId="d0b8-838e-926b-380a" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="1.0"/>
