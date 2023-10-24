@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7ab5-64c7-4c6f-e0e1" name="Warhammer_Fantasy-6_Edicion-Mercenarios" revision="1" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7ab5-64c7-4c6f-e0e1" name="Warhammer_Fantasy-6_Edicion-Mercenarios" revision="2" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="a8ea-6e32-10c0-9f6e" name="Gran hechicero" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -10182,6 +10182,170 @@ Miedo. La Compañía Maldita (Richter incluido) causa miedo.</description>
         <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="285.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4e2e-7bcd-9df5-cf0b" name="Cercenagoblins" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa17-4a49-0538-d24a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8b7a-b116-bc5c-ef0a" name="Malakai" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="2d56-9cad-9242-37bd">8</characteristic>
+            <characteristic name="HA" typeId="c87b-b820-6a47-1354">5</characteristic>
+            <characteristic name="HP" typeId="8ab7-c800-6644-f5ec">5</characteristic>
+            <characteristic name="F" typeId="79c2-0368-3eed-76b4">4</characteristic>
+            <characteristic name="R" typeId="30bd-8385-2b51-e039">4</characteristic>
+            <characteristic name="H" typeId="a41f-60f6-2336-73ab">2</characteristic>
+            <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">3</characteristic>
+            <characteristic name="A" typeId="6b2b-37c4-6774-748b">3</characteristic>
+            <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">10</characteristic>
+            <characteristic name="TSA" typeId="2532-2940-06ec-7a6e"/>
+            <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Infantería</characteristic>
+            <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a81b-f8c0-2f55-352e" name="Dotación" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="2d56-9cad-9242-37bd">8</characteristic>
+            <characteristic name="HA" typeId="c87b-b820-6a47-1354">4</characteristic>
+            <characteristic name="HP" typeId="8ab7-c800-6644-f5ec">3</characteristic>
+            <characteristic name="F" typeId="79c2-0368-3eed-76b4">3</characteristic>
+            <characteristic name="R" typeId="30bd-8385-2b51-e039">4</characteristic>
+            <characteristic name="H" typeId="a41f-60f6-2336-73ab">1</characteristic>
+            <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f">2</characteristic>
+            <characteristic name="A" typeId="6b2b-37c4-6774-748b">1</characteristic>
+            <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3">10</characteristic>
+            <characteristic name="TSA" typeId="2532-2940-06ec-7a6e"/>
+            <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Infantería</characteristic>
+            <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5f21-c6f7-9a35-20ec" name="Cercenagoblins" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
+          <characteristics>
+            <characteristic name="M" typeId="2d56-9cad-9242-37bd">8</characteristic>
+            <characteristic name="HA" typeId="c87b-b820-6a47-1354"/>
+            <characteristic name="HP" typeId="8ab7-c800-6644-f5ec"/>
+            <characteristic name="F" typeId="79c2-0368-3eed-76b4">4</characteristic>
+            <characteristic name="R" typeId="30bd-8385-2b51-e039">7</characteristic>
+            <characteristic name="H" typeId="a41f-60f6-2336-73ab">3</characteristic>
+            <characteristic name="I" typeId="fdd9-0cd1-90d5-1b6f"/>
+            <characteristic name="A" typeId="6b2b-37c4-6774-748b"/>
+            <characteristic name="L" typeId="458e-bb4b-f7c9-e0b3"/>
+            <characteristic name="TSA" typeId="2532-2940-06ec-7a6e"/>
+            <characteristic name="Tipo" typeId="4a99-e6a0-4022-a833">Artillería</characteristic>
+            <characteristic name="Potencia" typeId="6bbb-9823-b0cd-5705"/>
+          </characteristics>
+        </profile>
+        <profile id="7c26-d6e8-5996-4e3f" name="Cercenagoblins" hidden="false" typeId="83dc-30c1-3c91-3ea4" typeName="Arma">
+          <characteristics>
+            <characteristic name="Alcance" typeId="cafc-207a-b76d-8124">120 cm</characteristic>
+            <characteristic name="Fuerza" typeId="c938-3c85-689c-fbbd">4</characteristic>
+            <characteristic name="Reglas especiales" typeId="4348-8db0-9b33-fd91">-2 salvación ( ya cuenta la fuerza)
+El objetivo sufre 1D3 impactos por cada fila que atraviese el proyectil (igual que un lanzavirotes). Si la unidad no tiene filas sufre 1D3 impactos.
+El cercenagoblis se ve afectado por la perdida de dotación de la misma forma que un lanzavirotes</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0785-b2ed-5dcd-378a" name="Dificil de mover" hidden="false">
+          <description>Esta unidad ignora la regla de Mira, ¡Trolls!</description>
+        </rule>
+        <rule id="9e85-7e10-b74d-27ee" name="Matador ingeniero" hidden="false">
+          <description>Malakai es un ingeniero a todos los efectos a la hora de disparar el cercenagoblins</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="056f-d011-1df1-5598" name="Matador" hidden="false" targetId="be29-16d6-c107-0407" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="206c-8b0c-7327-653f" name="Unidad singular" hidden="false" targetId="184a-30ec-bf7c-b603" primary="true"/>
+        <categoryLink id="81b1-8933-a4a8-f20d" name="Héroe (no puede ser general)" hidden="false" targetId="6573-e7cf-6800-0acf" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7aff-1110-2c88-2ce1" name="Malakai" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8923-5204-30ac-0f2f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e17d-4f4e-0887-d139" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="7643-c840-99cc-6cf6" name="Armas" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7641-ee49-8474-973c" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dabe-4fe6-c9b3-23b8" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="31af-e82e-58f8-a61c" name="Arma a dos manos" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5eb3-ffef-6fd9-0055" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6152-a5b0-c62b-9a29" type="min"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="5672-3f1c-348d-2f4e" name="Arma a dos manos " hidden="false" targetId="bc8b-5380-77a9-7fe7" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="64b8-c72a-9240-6d6e" name="Armas de proyectiles" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4305-02ca-744f-407b" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4d7-8800-dd9a-68df" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="0cd3-3bdc-ba07-5157" name="Pistola de repetición" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5201-a88f-b064-992b" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b12-a02b-c3bb-380b" type="min"/>
+                  </constraints>
+                  <rules>
+                    <rule id="6bae-512a-cf09-d281" name="Pistola de repetición" hidden="false">
+                      <description>La pistola de repetición de Malakai Makaisson puede disparar 3 veces cada fase de disparo, pero si dispara su pistola no puede disparar el cercenagoblins.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks>
+                    <infoLink id="d5f7-a91b-dacf-ddb7" name="Pistola (cuerpo a cuerpo)" hidden="false" targetId="1108-0dac-9a06-ddc7" type="profile"/>
+                    <infoLink id="74b3-6edb-f42a-a6e1" name="Pistola (disparo)" hidden="false" targetId="3cc9-65b6-1e88-d162" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f4c2-5230-ae01-9297" name="Dotación" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dda4-a0fa-07e3-d2c1" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b413-dcd3-a8a0-0b10" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5e6f-eccf-4d7c-8c1c" name="Arma de mano" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d441-a09b-f7b3-e0bd" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f76-12cf-c9e5-d046" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="4a81-b9bd-0b0c-e700" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="130.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="c7b7-3b43-dd5a-e171" name="Caballo de guerra" hidden="false" collective="false" import="true" type="upgrade">
@@ -10596,6 +10760,13 @@ necesario designar ataques explícitamente, pueden lanzar y aceptar desafíos, e
     </rule>
     <rule id="2eaa-6c6f-3709-a3b1" name="Sangre fría" hidden="false">
       <description>Para todos los chequeos de Liderazgo (incluyendo Chequeos de Psicología y Chequeos de Desmoralización), lanza 3 dados y descartan el dado mayor.</description>
+    </rule>
+    <rule id="be29-16d6-c107-0407" name="Matador" hidden="false">
+      <description>Cuando una miniatura con esta regla impacte a un enemigo con un atributo de Resistencia superior a la Fuerza del ataque (Fuerza modificada
+por runas, arma a dos manos, etc), puede resolver ese impacto como si tuviera una Fuerza (modificada) igual a la Resistencia
+del enemigo impactado (hasta un máximo de 6). Por ejemplo, si impacta a un enemigo con R5, se considerará que tiene F5 a todos los
+efectos (hiere a 4+, tiene un -2 a la tirada de salvación por armadura).
+</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
