@@ -309,15 +309,15 @@
                     <condition field="selections" scope="0f15-8760-2704-b90e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="476e-30cf-be23-5a30" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="944f-b22c-d2df-9257" value="0.0">
+                <modifier type="set" field="944f-b22c-d2df-9257" value="1.0">
                   <conditions>
-                    <condition field="selections" scope="0f15-8760-2704-b90e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="476e-30cf-be23-5a30" type="equalTo"/>
+                    <condition field="selections" scope="0f15-8760-2704-b90e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="476e-30cf-be23-5a30" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b35-2eb4-bc80-1353" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="944f-b22c-d2df-9257" type="min"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="944f-b22c-d2df-9257" type="min"/>
               </constraints>
               <infoLinks>
                 <infoLink id="ea89-7b76-30bc-9f79" name="Armas de bailarín" hidden="false" targetId="0e22-52ab-3fa0-f116" type="rule"/>
