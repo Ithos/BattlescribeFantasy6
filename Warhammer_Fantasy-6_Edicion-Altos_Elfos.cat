@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d3b3-94b1-5e8a-2250" name="Warhammer_Fantasy-6_Edicion-Altos_Elfos" revision="1" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d3b3-94b1-5e8a-2250" name="Warhammer_Fantasy-6_Edicion-Altos_Elfos" revision="2" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="bd75-4d19-587a-9eea" name="Águila gigante" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
@@ -3399,6 +3399,7 @@
             <selectionEntry id="7581-0384-bff7-19bd" name="Artillería a caballo de Bronzino" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b339-bcfa-0d4f-5784" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dee0-d774-d34c-fd18" type="max"/>
               </constraints>
               <rules>
                 <rule id="eb6c-2e78-da3a-876e" name="Inclusión" hidden="false">
@@ -3714,6 +3715,7 @@ Combate. La dotación lucha normalmente en combate cuerpo a cuerpo, incluido el 
             <selectionEntry id="a5ff-febb-b87c-792a" name="Asarnil, señor de los dragones" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77d6-ea49-3c76-4779" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cec9-f988-5f7d-8e72" type="max"/>
               </constraints>
               <rules>
                 <rule id="2e3c-cd70-b08b-02f0" name="Inclusión" hidden="false">
@@ -3949,6 +3951,7 @@ significa que puede elegir el resultado). El Amuleto es de Asarnil, así que si 
             <selectionEntry id="2f01-d056-d58c-e2b2" name="Asesinos de Véspero" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b34-45a0-14bb-b983" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="78b5-69b6-4d40-969e" type="max"/>
               </constraints>
               <rules>
                 <rule id="4486-6dc4-db5a-7a62" name="Inclusión" hidden="false">
@@ -4260,6 +4263,9 @@ significa que puede elegir el resultado). El Amuleto es de Asarnil, así que si 
               </costs>
             </selectionEntry>
             <selectionEntry id="682f-a854-9bfa-4437" name="Ballesteros" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e54-1cf5-f11e-8db5" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="44c2-c32f-03a2-2584" name="Ballestero" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -4411,6 +4417,7 @@ significa que puede elegir el resultado). El Amuleto es de Asarnil, así que si 
             <selectionEntry id="302e-4f5d-61bf-c1d2" name="Ballesteros de Braganza" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d691-7437-0862-d39b" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8972-cf2f-8f5c-9010" type="max"/>
               </constraints>
               <rules>
                 <rule id="8cc6-f1f4-a6f7-212b" name="Inclusión" hidden="false">
@@ -4749,6 +4756,9 @@ significa que puede elegir el resultado). El Amuleto es de Asarnil, así que si 
               </costs>
             </selectionEntry>
             <selectionEntry id="69fa-1fcd-00fc-dce6" name="Caballería ligera" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9258-cd67-36fe-d3eb" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="b1bb-32f0-475a-35bf" name="Jinete" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -4911,6 +4921,9 @@ significa que puede elegir el resultado). El Amuleto es de Asarnil, así que si 
               </costs>
             </selectionEntry>
             <selectionEntry id="575f-1f73-ab17-e2d2" name="Caballería pesada" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d91-7621-ea2f-575d" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="1bb6-e250-352c-c608" name="Caballero" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -5096,6 +5109,7 @@ significa que puede elegir el resultado). El Amuleto es de Asarnil, así que si 
             <selectionEntry id="b98a-392d-c6df-2e0c" name="Cazadores de Voland" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1769-fd63-9043-9a1e" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="710f-e897-d142-91ec" type="max"/>
               </constraints>
               <profiles>
                 <profile id="0a6b-aa10-d2ea-f5fc" name="Caballo de guerra con barda" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
@@ -5461,6 +5475,9 @@ significa que puede elegir el resultado). El Amuleto es de Asarnil, así que si 
               </costs>
             </selectionEntry>
             <selectionEntry id="143e-aa7c-d5ad-d62c" name="Cañón mercenario" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a84e-33e6-242e-74ce" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="14a1-a18f-c83b-c1c5" name="Cañón" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -5546,6 +5563,7 @@ significa que puede elegir el resultado). El Amuleto es de Asarnil, así que si 
             <selectionEntry id="3d11-9a6b-b829-9039" name="Comehombres de Golgfag" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38c8-64e2-7c72-38f3" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1d41-896d-0c86-43c1" type="max"/>
               </constraints>
               <rules>
                 <rule id="32eb-7f59-059b-ecb6" name="Inclusión" hidden="false">
@@ -5862,6 +5880,7 @@ significa que puede elegir el resultado). El Amuleto es de Asarnil, así que si 
             <selectionEntry id="842a-42a9-04f8-54c1" name="Compañía Alcatani" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb65-afd2-2ed6-eca0" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b526-edc3-3040-cf15" type="max"/>
               </constraints>
               <rules>
                 <rule id="31a4-197c-91f5-2545" name="Inclusión" hidden="false">
@@ -6139,6 +6158,7 @@ significa que puede elegir el resultado). El Amuleto es de Asarnil, así que si 
             <selectionEntry id="2b92-8f4a-99b4-3dd8" name="Compañía del Leopardo de Leopold" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a8b-9a30-7f76-0102" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="212c-27df-9228-e3e9" type="max"/>
               </constraints>
               <rules>
                 <rule id="01e9-d0c7-3279-837f" name="Inclusión" hidden="false">
@@ -6430,6 +6450,7 @@ significa que puede elegir el resultado). El Amuleto es de Asarnil, así que si 
             <selectionEntry id="d9ba-7927-95a9-f254" name="Compañía maldita de Kreugar" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e45-baf9-2a93-3906" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c1b4-739f-b81e-c41c" type="max"/>
               </constraints>
               <rules>
                 <rule id="552b-b830-1b0a-88bf" name="Inclusión" hidden="false">
@@ -6791,6 +6812,9 @@ Miedo. La Compañía Maldita (Richter incluido) causa miedo.</description>
               </costs>
             </selectionEntry>
             <selectionEntry id="17ce-a96b-5946-4a64" name="Duelistas" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f50c-6f1d-38ce-febb" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="56a5-5905-c317-4265" name="Duelista" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -6964,6 +6988,7 @@ Miedo. La Compañía Maldita (Richter incluido) causa miedo.</description>
             <selectionEntry id="53e6-e310-249c-4244" name="Gallos de pelea de Lumpin Croop" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1904-df2a-8b04-7c48" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ae37-891f-7623-390a" type="max"/>
               </constraints>
               <rules>
                 <rule id="ba8a-537c-265f-7f09" name="Inclusión" hidden="false">
@@ -7322,6 +7347,7 @@ También puedes incluir a los Gallos de Pelea de Lumpin’ Croop como unidad Sin
             <selectionEntry id="2d86-dd96-5935-ec2f" name="Guardia republicana de Ricco" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9278-e548-4114-8336" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d748-2b41-4ab1-01a3" type="max"/>
               </constraints>
               <rules>
                 <rule id="fc2d-076b-bb2e-1451" name="Inclusión" hidden="false">
@@ -7802,6 +7828,7 @@ También puedes incluir a los Gallos de Pelea de Lumpin’ Croop como unidad Sin
             <selectionEntry id="36f5-4a81-f564-2aad" name="Incursores de Tichi Huichi" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0947-5624-d636-9ec0" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6c9d-7b9a-b255-bb47" type="max"/>
               </constraints>
               <profiles>
                 <profile id="c434-6ea5-3505-19d9" name="Gélido de Gran Cresta" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
@@ -8181,6 +8208,9 @@ Puedes incluir a los Incursores de Tichi Huichi en cualquier otro ejército (exc
               </costs>
             </selectionEntry>
             <selectionEntry id="b907-6c37-c3cd-00e1" name="Incursores nórdicos" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3cb-76b9-c033-6fb6" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="6ce4-09f1-8b18-363d" name="Incursor" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -8348,6 +8378,7 @@ Puedes incluir a los Incursores de Tichi Huichi en cualquier otro ejército (exc
             <selectionEntry id="6540-b3a8-3783-4e74" name="Legión Perdida de Pirazzo" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ce8-cece-9fc4-8a3c" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="869f-6c34-eda6-3760" type="max"/>
               </constraints>
               <rules>
                 <rule id="66b5-de39-ec21-0527" name="Inclusión" hidden="false">
@@ -8823,6 +8854,9 @@ En combate, ten en cuenta que la primera fila no tiene picas (por lo que no atac
               </costs>
             </selectionEntry>
             <selectionEntry id="8660-d112-895c-afb6" name="Ogros toro" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eee5-dbf6-31cc-2790" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="e1c8-b9a2-8e09-2272" name="Ogro toro" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -8975,6 +9009,9 @@ En combate, ten en cuenta que la primera fila no tiene picas (por lo que no atac
               </costs>
             </selectionEntry>
             <selectionEntry id="58a2-a401-9d9f-26a0" name="Olla caliente halfling" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae38-94a7-721b-3184" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="e980-37b1-7478-4509" name="Olla caliente" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -9062,6 +9099,7 @@ En combate, ten en cuenta que la primera fila no tiene picas (por lo que no atac
             <selectionEntry id="6c9e-1073-f848-a5ef" name="Perros del Desierto de Al Muktar" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e52-30ca-0b2d-8de3" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="73b4-b6c1-bf26-cd63" type="max"/>
               </constraints>
               <profiles>
                 <profile id="4edd-6edb-bb08-3c0e" name="Caballo de guerra" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
@@ -9486,6 +9524,9 @@ Puedes incluir los Perros del Desierto de Al Muktar en cualquier otro ejército 
               </costs>
             </selectionEntry>
             <selectionEntry id="0d15-fb14-56f7-0986" name="Piqueros" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af51-9c1f-7fda-a9a8" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="7e69-3353-17ee-5e69" name="Piquero" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -9641,6 +9682,7 @@ Puedes incluir los Perros del Desierto de Al Muktar en cualquier otro ejército 
             <selectionEntry id="08bf-33a7-0808-c3bd" name="Tiradores de Miragliano" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90b5-80f7-9a05-fc4e" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a8ee-1325-735b-fac7" type="max"/>
               </constraints>
               <rules>
                 <rule id="e7b0-8461-e35f-1dab" name="Inclusión" hidden="false">

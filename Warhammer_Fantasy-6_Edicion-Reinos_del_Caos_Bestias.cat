@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3c7d-2907-6b62-936e" name="Warhammer_Fantasy-6_Edicion-Reinos_del_Caos_Bestias" revision="1" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3c7d-2907-6b62-936e" name="Warhammer_Fantasy-6_Edicion-Reinos_del_Caos_Bestias" revision="2" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="794e-d351-4b59-110e" name="Carro de tuskgors" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -12932,7 +12932,8 @@ Mutación incontrolable. Sólo en combate cuerpo a cuerpo. Lanza 1D6 por cada Ho
           <selectionEntries>
             <selectionEntry id="431d-0eb1-233a-010d" name="Artillería a caballo de Bronzino" hidden="false" collective="false" import="true" type="unit">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f22b-54d3-c1da-6d8a" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f22b-54d3-c1da-6d8a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec7b-71e7-ecc8-a881" type="max"/>
               </constraints>
               <rules>
                 <rule id="ac10-0f99-f4ee-2ea4" name="Inclusión" hidden="false">
@@ -13248,6 +13249,7 @@ Combate. La dotación lucha normalmente en combate cuerpo a cuerpo, incluido el 
             <selectionEntry id="e97f-c477-e8af-ee2c" name="Asesinos de Véspero" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e336-d652-3ec6-debf" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dd8b-e15e-a1f6-a24b" type="max"/>
               </constraints>
               <rules>
                 <rule id="765d-b447-c31d-c6a0" name="Inclusión" hidden="false">
@@ -13559,6 +13561,9 @@ Combate. La dotación lucha normalmente en combate cuerpo a cuerpo, incluido el 
               </costs>
             </selectionEntry>
             <selectionEntry id="8600-aff5-3829-5898" name="Ballesteros" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="718c-c03e-75fe-9580" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="14c2-7a05-a2b2-674b" name="Ballestero" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -13710,6 +13715,7 @@ Combate. La dotación lucha normalmente en combate cuerpo a cuerpo, incluido el 
             <selectionEntry id="8dc2-ac3d-76b1-baa4" name="Ballesteros de Braganza" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51e3-c2b3-3c9c-e94e" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d420-8d39-7590-9804" type="max"/>
               </constraints>
               <rules>
                 <rule id="67b1-9e78-474f-8cec" name="Inclusión" hidden="false">
@@ -14048,6 +14054,9 @@ Combate. La dotación lucha normalmente en combate cuerpo a cuerpo, incluido el 
               </costs>
             </selectionEntry>
             <selectionEntry id="1ba4-045c-93fd-c7f6" name="Caballería ligera" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b644-5ada-bb18-f26b" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="86d0-8652-4c88-4818" name="Jinete" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -14210,6 +14219,9 @@ Combate. La dotación lucha normalmente en combate cuerpo a cuerpo, incluido el 
               </costs>
             </selectionEntry>
             <selectionEntry id="0bcf-eea9-79d4-3649" name="Caballería pesada" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="facd-3f86-2ef3-1604" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="4f74-ff8b-4483-0244" name="Caballero" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -14395,6 +14407,7 @@ Combate. La dotación lucha normalmente en combate cuerpo a cuerpo, incluido el 
             <selectionEntry id="f17c-1ad1-8252-5691" name="Cazadores de Voland" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8891-42cf-d4be-2cdd" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="88a0-847b-c455-1dcf" type="max"/>
               </constraints>
               <profiles>
                 <profile id="88f6-5e46-9646-fe3f" name="Caballo de guerra con barda" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
@@ -14760,6 +14773,9 @@ Combate. La dotación lucha normalmente en combate cuerpo a cuerpo, incluido el 
               </costs>
             </selectionEntry>
             <selectionEntry id="fbe1-a039-4ecd-f42f" name="Cañón mercenario" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a947-dc01-d25a-ef3b" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="aa4c-e769-6eb5-23b2" name="Cañón" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -14845,6 +14861,7 @@ Combate. La dotación lucha normalmente en combate cuerpo a cuerpo, incluido el 
             <selectionEntry id="fe13-4d22-c55a-41d7" name="Comehombres de Golgfag" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98e0-5edd-a037-4a36" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a4de-36a2-778d-409c" type="max"/>
               </constraints>
               <rules>
                 <rule id="00a8-adec-afac-941d" name="Inclusión" hidden="false">
@@ -15161,6 +15178,7 @@ Combate. La dotación lucha normalmente en combate cuerpo a cuerpo, incluido el 
             <selectionEntry id="ebce-4e4b-1bb3-0a6c" name="Compañía Alcatani" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95e7-f126-c6c3-b69b" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3645-ffca-d0eb-6e56" type="max"/>
               </constraints>
               <rules>
                 <rule id="bf52-a6f5-b90a-0435" name="Inclusión" hidden="false">
@@ -15438,6 +15456,7 @@ Combate. La dotación lucha normalmente en combate cuerpo a cuerpo, incluido el 
             <selectionEntry id="f516-1d84-8f83-8990" name="Compañía del Leopardo de Leopold" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="195b-3ad1-35e6-874e" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d6a0-e99a-e7ff-61e2" type="max"/>
               </constraints>
               <rules>
                 <rule id="5f3d-ebb7-972b-b2c1" name="Inclusión" hidden="false">
@@ -15729,6 +15748,7 @@ Combate. La dotación lucha normalmente en combate cuerpo a cuerpo, incluido el 
             <selectionEntry id="f2b0-a036-b72c-8342" name="Compañía maldita de Kreugar" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="daf0-b9fe-00ed-92bd" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ef56-42fb-2084-2eb1" type="max"/>
               </constraints>
               <rules>
                 <rule id="fbb0-c1bd-425d-8343" name="Inclusión" hidden="false">
@@ -16090,6 +16110,9 @@ Miedo. La Compañía Maldita (Richter incluido) causa miedo.</description>
               </costs>
             </selectionEntry>
             <selectionEntry id="1cbc-0de3-c606-b7ef" name="Duelistas" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="101a-1e23-0542-c68f" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="23a3-e49e-f41b-cf82" name="Duelista" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -16263,6 +16286,7 @@ Miedo. La Compañía Maldita (Richter incluido) causa miedo.</description>
             <selectionEntry id="da57-1a96-7117-2541" name="Gallos de pelea de Lumpin Croop" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c17b-9d15-7761-480d" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="df05-fe58-1b7f-c471" type="max"/>
               </constraints>
               <rules>
                 <rule id="93c3-0a40-d6df-c673" name="Inclusión" hidden="false">
@@ -16621,6 +16645,7 @@ También puedes incluir a los Gallos de Pelea de Lumpin’ Croop como unidad Sin
             <selectionEntry id="0e96-262a-d381-1797" name="Guardia republicana de Ricco" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec5f-f935-7518-d579" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6077-cb6c-9b00-ed3d" type="max"/>
               </constraints>
               <rules>
                 <rule id="d2bd-e89b-dad6-c691" name="Inclusión" hidden="false">
@@ -17099,6 +17124,9 @@ También puedes incluir a los Gallos de Pelea de Lumpin’ Croop como unidad Sin
               </costs>
             </selectionEntry>
             <selectionEntry id="1d60-1135-f643-47fd" name="Incursores nórdicos" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a563-2075-62cb-874b" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="0910-9ba4-59ef-c16e" name="Incursor" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -17266,6 +17294,7 @@ También puedes incluir a los Gallos de Pelea de Lumpin’ Croop como unidad Sin
             <selectionEntry id="0b02-adb2-73c3-a2a1" name="Legión Perdida de Pirazzo" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cccd-033f-5b20-8ad2" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="39dd-695c-b8bd-4a2f" type="max"/>
               </constraints>
               <rules>
                 <rule id="74ce-4606-1503-3454" name="Inclusión" hidden="false">
@@ -17741,6 +17770,9 @@ En combate, ten en cuenta que la primera fila no tiene picas (por lo que no atac
               </costs>
             </selectionEntry>
             <selectionEntry id="6b3d-4291-7c63-c21a" name="Ogros toro" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="886a-da6f-98d9-5056" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="8069-d22a-02e1-ed9f" name="Ogro toro" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -17893,6 +17925,9 @@ En combate, ten en cuenta que la primera fila no tiene picas (por lo que no atac
               </costs>
             </selectionEntry>
             <selectionEntry id="2554-2cdd-d6f5-9054" name="Olla caliente halfling" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b971-a633-8a08-eadd" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="6b16-5507-7197-863c" name="Olla caliente" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -17980,6 +18015,7 @@ En combate, ten en cuenta que la primera fila no tiene picas (por lo que no atac
             <selectionEntry id="ebeb-1ceb-dcb3-2336" name="Perros del Desierto de Al Muktar" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4943-899d-fa38-5eb4" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a093-3bd3-044e-81f1" type="max"/>
               </constraints>
               <profiles>
                 <profile id="b478-5e8b-6a1e-4cc1" name="Caballo de guerra" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
@@ -18404,6 +18440,9 @@ Puedes incluir los Perros del Desierto de Al Muktar en cualquier otro ejército 
               </costs>
             </selectionEntry>
             <selectionEntry id="d1c9-3213-38cd-e42c" name="Piqueros" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94a8-dd65-2edb-28ec" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="e7fe-1714-76ad-d967" name="Piquero" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -18559,6 +18598,7 @@ Puedes incluir los Perros del Desierto de Al Muktar en cualquier otro ejército 
             <selectionEntry id="d74b-87ef-d403-8e26" name="Tiradores de Miragliano" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d491-d850-c5ff-06ac" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4342-3a00-9252-f3b2" type="max"/>
               </constraints>
               <rules>
                 <rule id="d9f7-940e-9ca2-5cba" name="Inclusión" hidden="false">
@@ -19028,6 +19068,7 @@ Puedes incluir los Perros del Desierto de Al Muktar en cualquier otro ejército 
             <selectionEntry id="3222-d52f-a3e7-2d3a" name="Hombres Oso de Urslo" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8442-6bb6-a8b4-01d1" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f969-12a1-80a2-0de0" type="max"/>
               </constraints>
               <rules>
                 <rule id="74fb-1f85-3dca-226a" name="Inclusión" hidden="false">
@@ -19426,6 +19467,7 @@ Puedes incluir los Perros del Desierto de Al Muktar en cualquier otro ejército 
             <selectionEntry id="e6e2-a7e1-86c9-99a7" name="Jinetez de lobo de Oglah Khan " hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbd4-4780-cf6e-5528" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a084-cd0b-2ced-a2ab" type="max"/>
               </constraints>
               <profiles>
                 <profile id="2546-7080-489e-313b" name="Lobo gigante" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
@@ -19884,6 +19926,7 @@ Puedes incluir a los Jinetez de Oglah Khan en cualquier otro ejército de Warham
             <selectionEntry id="cb8b-76fb-740b-0f31" name="Orcos akorazados de Ruglud" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4090-b2fc-ee4f-ae2d" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6929-cdbe-9f3a-620e" type="max"/>
               </constraints>
               <rules>
                 <rule id="0c5e-088d-2bd3-eb40" name="Inclusión" hidden="false">
@@ -20294,6 +20337,9 @@ Puedes incluir a los Orcos Akorazados de Ruglud en cualquier otro ejército de W
               </costs>
             </selectionEntry>
             <selectionEntry id="9c66-af42-c240-dfc7" name="Guerreros enanos" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1a7-9684-28c9-43ee" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="002b-7cd7-df70-8086" name="Guerrero enano" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -20487,6 +20533,7 @@ Puedes incluir a los Orcos Akorazados de Ruglud en cualquier otro ejército de W
             <selectionEntry id="ff90-2c51-2a97-c809" name="Matadores Pirata de Drong el Largo" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5731-f1b8-f781-344c" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1916-c3f2-a4df-03f7" type="max"/>
               </constraints>
               <rules>
                 <rule id="7a33-a35e-2987-2fee" name="Inclusión" hidden="false">
@@ -22788,7 +22835,7 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="1ad0-728f-1a5d-8160" name="Disrupción del Caos" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="082f-5113-b34c-d4cf" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e085-9670-3398-363e" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e085-9670-3398-363e" type="max"/>
           </constraints>
           <profiles>
             <profile id="7ff2-2254-0d96-cd94" name="Disrupción del Caos" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -22804,7 +22851,7 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="5e38-4af3-18cd-8bcd" name="Arma infernal" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e3cf-5442-52c6-7657" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50dd-5c95-dd25-0d29" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="50dd-5c95-dd25-0d29" type="max"/>
           </constraints>
           <profiles>
             <profile id="543c-5ff7-1915-d7f4" name="Arma infernal" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -22820,7 +22867,7 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="f5d2-03ae-5774-6201" name="Aura de gloria infernal" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dfba-4c58-c8d3-73a1" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28bc-b354-85f2-7966" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="28bc-b354-85f2-7966" type="max"/>
           </constraints>
           <profiles>
             <profile id="c420-8888-014f-18e7" name="Aura de gloria infernal" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -22836,7 +22883,7 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="6885-663a-305b-230f" name="Avidez de almas" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f508-2d8b-1a44-21cc" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e38-b6ba-ff88-c230" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9e38-b6ba-ff88-c230" type="max"/>
           </constraints>
           <profiles>
             <profile id="63d2-2b34-349f-21a9" name="Avidez de almas" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -22852,7 +22899,7 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="6446-5fce-bf91-f7b8" name="Rompehechizos" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="65bf-9a17-e721-7fe9" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c19e-f7b5-43b8-0fb3" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c19e-f7b5-43b8-0fb3" type="max"/>
           </constraints>
           <profiles>
             <profile id="b9aa-21eb-c845-3ae8" name="Rompehechizos" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -22868,7 +22915,7 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="2029-831a-36a9-0eec" name="Esplendor diabólico" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="56ab-4cbe-9241-03a2" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edf6-8dac-df24-5f77" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="edf6-8dac-df24-5f77" type="max"/>
           </constraints>
           <profiles>
             <profile id="41be-2590-e7af-65eb" name="Esplendor diabólico" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -22884,7 +22931,7 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="2c92-f131-9b21-5d18" name="Ídolo demoníaco" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fea6-eeb9-13f4-8a69" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62e5-b447-8fb6-5a7e" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="62e5-b447-8fb6-5a7e" type="max"/>
           </constraints>
           <profiles>
             <profile id="efd1-fea0-7706-be5c" name="Ídolo demoníaco" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -22907,7 +22954,7 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="329f-895a-0511-cad1" name="Collar de Khorne" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="53d1-f616-7419-11a8" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e647-7c88-2b91-635f" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e647-7c88-2b91-635f" type="max"/>
           </constraints>
           <profiles>
             <profile id="1611-53cd-cfad-7550" name="Collar de Khorne" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -22923,7 +22970,7 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="d638-e54a-5722-c75f" name="Hacha de Khorne" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f834-b078-56f3-ecfb" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdef-7589-fc94-639c" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cdef-7589-fc94-639c" type="max"/>
           </constraints>
           <profiles>
             <profile id="e40a-720a-c83c-4722" name="Hacha de Khorne" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -22939,7 +22986,7 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="c9e6-1bae-2614-f28a" name="Armadura de Khorne" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="adab-f22a-f785-c9dd" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3d9-1288-aa50-84d2" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f3d9-1288-aa50-84d2" type="max"/>
           </constraints>
           <profiles>
             <profile id="222a-ee50-77b8-b42b" name="Armadura de Khorne" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -22955,7 +23002,7 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="ff03-b3b8-b64b-5c45" name="Poder de Khorne" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="653e-46fa-30d4-236c" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56ef-d90f-19b0-8b49" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="56ef-d90f-19b0-8b49" type="max"/>
           </constraints>
           <profiles>
             <profile id="6765-c6c5-ad93-346f" name="Poder de Khorne" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -22975,7 +23022,7 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="2d91-cc04-45a8-97c2" name="Nube de moscas" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7b96-e2ce-9e68-41cd" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc9f-7fad-68fd-183e" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cc9f-7fad-68fd-183e" type="max"/>
           </constraints>
           <profiles>
             <profile id="9405-5a3b-7657-be3f" name="Nube de moscas" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -22991,7 +23038,7 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="48bd-7813-db23-b4fe" name="Torrente de corrupción" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="38d7-b1e2-96b8-c27e" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2d2-fd31-dfa3-addc" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b2d2-fd31-dfa3-addc" type="max"/>
           </constraints>
           <profiles>
             <profile id="8ee4-325d-d031-ce83" name="Torrente de corrupción" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -23007,7 +23054,7 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="cf58-e238-cfdb-58f9" name="Mayal de plaga" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ab73-b352-9788-d4b3" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee26-fa2d-bc9b-51f4" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ee26-fa2d-bc9b-51f4" type="max"/>
           </constraints>
           <profiles>
             <profile id="2ad5-a289-1429-0e21" name="Mayal de plaga" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -23027,7 +23074,7 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="0c09-c0bf-0107-e304" name="Almizcle soporífero" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="94a8-efaa-06c5-8f08" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83ba-1136-5cd8-593d" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="83ba-1136-5cd8-593d" type="max"/>
           </constraints>
           <profiles>
             <profile id="0bf7-7bef-2327-359c" name="Almizcle soporífero" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -23043,7 +23090,7 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="f632-9769-b321-ba2a" name="Mirada de sometimiento" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d711-3039-7456-d71c" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc95-d124-f03d-5e20" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bc95-d124-f03d-5e20" type="max"/>
           </constraints>
           <profiles>
             <profile id="a472-bd70-535e-8522" name="Mirada de sometimiento" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -23059,7 +23106,7 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="0f5e-69cd-4603-5c07" name="Aura de Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d402-7280-5833-6ebc" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d65-9e4a-1290-f73e" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9d65-9e4a-1290-f73e" type="max"/>
           </constraints>
           <profiles>
             <profile id="60bd-2769-8040-8e85" name="Aura de Slaanesh" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -23079,7 +23126,7 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="a66e-f4da-1fa0-981e" name="Destruyehechizos" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="04b9-d117-fd23-d9cd" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15fa-77c7-3dc3-49a0" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="15fa-77c7-3dc3-49a0" type="max"/>
           </constraints>
           <profiles>
             <profile id="9617-8384-08db-a0c8" name="Destruyehechizos" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -23095,7 +23142,7 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="e0cf-c8b6-a584-b8dc" name="Maestro de la hechicería" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fd07-e6fd-8ec8-be23" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38e0-85be-a625-cebb" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="38e0-85be-a625-cebb" type="max"/>
           </constraints>
           <profiles>
             <profile id="ae38-5a74-e81a-9991" name="Maestro de la hechicería" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -23111,7 +23158,7 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="c296-f65e-aba7-a99c" name="Voluntad de Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8233-4c41-598f-c138" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1882-f0e9-2e5d-088b" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1882-f0e9-2e5d-088b" type="max"/>
           </constraints>
           <profiles>
             <profile id="f3dd-3aa7-de12-d74a" name="Voluntad de Tzeentch" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -23127,7 +23174,7 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="5188-38fc-4b8a-6c2c" name="Vórtice de poder" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="19e4-daa3-8956-ab54" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="090f-afd7-76fc-3d21" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="090f-afd7-76fc-3d21" type="max"/>
           </constraints>
           <profiles>
             <profile id="a588-8eb3-acc9-64c5" name="Vórtice de poder" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">

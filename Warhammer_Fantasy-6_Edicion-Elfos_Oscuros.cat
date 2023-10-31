@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="88fd-bc7b-a990-f36e" name="Warhammer_Fantasy-6_Edicion-Elfos_Oscuros" revision="1" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="88fd-bc7b-a990-f36e" name="Warhammer_Fantasy-6_Edicion-Elfos_Oscuros" revision="2" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b1c8-bbe3-91ba-8a62" name="Carro de gélidos" hidden="false" collective="false" import="true" type="unit">
       <rules>
@@ -3457,7 +3457,8 @@ En caso de tratarse de la versión con Plataforma, los enemigos en contacto podr
           <selectionEntries>
             <selectionEntry id="fa6e-037b-a83f-3dc2" name="Artillería a caballo de Bronzino" hidden="false" collective="false" import="true" type="unit">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af11-7a06-a272-b5fb" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="af11-7a06-a272-b5fb" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f995-b408-3d7f-f755" type="max"/>
               </constraints>
               <rules>
                 <rule id="33da-b7a1-9e2f-968e" name="Inclusión" hidden="false">
@@ -3773,6 +3774,7 @@ Combate. La dotación lucha normalmente en combate cuerpo a cuerpo, incluido el 
             <selectionEntry id="ab46-ef77-6eb4-b456" name="Asesinos de Véspero" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1c6-5d93-ad1e-6f3e" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6454-c675-fabd-75fb" type="max"/>
               </constraints>
               <rules>
                 <rule id="91b1-6386-f483-2cab" name="Inclusión" hidden="false">
@@ -4084,6 +4086,9 @@ Combate. La dotación lucha normalmente en combate cuerpo a cuerpo, incluido el 
               </costs>
             </selectionEntry>
             <selectionEntry id="0e21-b8de-ed19-8d6e" name="Ballesteros" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f0a-a27f-ca53-d4c4" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="1783-083b-f10a-32e9" name="Ballestero" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -4235,6 +4240,7 @@ Combate. La dotación lucha normalmente en combate cuerpo a cuerpo, incluido el 
             <selectionEntry id="5a29-5847-210b-020b" name="Ballesteros de Braganza" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8276-9ae7-2545-f6bd" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2b10-93c7-1a04-51f2" type="max"/>
               </constraints>
               <rules>
                 <rule id="d3a2-916c-16c1-9317" name="Inclusión" hidden="false">
@@ -4573,6 +4579,9 @@ Combate. La dotación lucha normalmente en combate cuerpo a cuerpo, incluido el 
               </costs>
             </selectionEntry>
             <selectionEntry id="1dc6-dfa3-c656-6193" name="Caballería ligera" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13df-60af-d281-f135" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="3ff8-96b9-f8f5-c962" name="Jinete" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -4735,6 +4744,9 @@ Combate. La dotación lucha normalmente en combate cuerpo a cuerpo, incluido el 
               </costs>
             </selectionEntry>
             <selectionEntry id="d555-9b59-9b6e-3a97" name="Caballería pesada" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a3f-990b-5ddc-f2c6" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="9009-5447-bb01-dfdd" name="Caballero" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -4920,6 +4932,7 @@ Combate. La dotación lucha normalmente en combate cuerpo a cuerpo, incluido el 
             <selectionEntry id="dc9d-b911-aed3-a1f8" name="Cazadores de Voland" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cb1-0b1d-49b0-6432" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0176-3f33-fe35-f0e3" type="max"/>
               </constraints>
               <profiles>
                 <profile id="489c-0758-98f3-838c" name="Caballo de guerra con barda" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
@@ -5285,6 +5298,9 @@ Combate. La dotación lucha normalmente en combate cuerpo a cuerpo, incluido el 
               </costs>
             </selectionEntry>
             <selectionEntry id="69c9-0044-209e-f068" name="Cañón mercenario" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c937-a934-f545-e2f5" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="e5f4-e645-c977-d1cb" name="Cañón" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -5370,6 +5386,7 @@ Combate. La dotación lucha normalmente en combate cuerpo a cuerpo, incluido el 
             <selectionEntry id="4a0c-941f-77a4-f161" name="Comehombres de Golgfag" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aefb-1270-e91d-5907" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="63b7-5ae5-233e-1869" type="max"/>
               </constraints>
               <rules>
                 <rule id="ff10-d14b-f701-2b17" name="Inclusión" hidden="false">
@@ -5963,6 +5980,7 @@ Combate. La dotación lucha normalmente en combate cuerpo a cuerpo, incluido el 
             <selectionEntry id="1ff0-7e96-8037-363f" name="Compañía del Leopardo de Leopold" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b60-13aa-d429-4c86" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="479f-ec09-3acd-5c1d" type="max"/>
               </constraints>
               <rules>
                 <rule id="b55c-ba55-e86e-6abd" name="Inclusión" hidden="false">
@@ -6254,6 +6272,7 @@ Combate. La dotación lucha normalmente en combate cuerpo a cuerpo, incluido el 
             <selectionEntry id="aba8-7592-5f5e-fa67" name="Compañía maldita de Kreugar" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e7e-37a2-a723-d91e" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aa5f-28af-98ba-aceb" type="max"/>
               </constraints>
               <rules>
                 <rule id="306b-4986-d1e8-4c3c" name="Inclusión" hidden="false">
@@ -6615,6 +6634,9 @@ Miedo. La Compañía Maldita (Richter incluido) causa miedo.</description>
               </costs>
             </selectionEntry>
             <selectionEntry id="d960-2511-e3f2-e2f6" name="Duelistas" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c97-725d-4c14-3269" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="aec7-ee21-e7e1-08e3" name="Duelista" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -6788,6 +6810,7 @@ Miedo. La Compañía Maldita (Richter incluido) causa miedo.</description>
             <selectionEntry id="4b82-921b-7829-b0ee" name="Gallos de pelea de Lumpin Croop" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d30-ca4b-f27e-2594" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ab26-8884-9492-5f96" type="max"/>
               </constraints>
               <rules>
                 <rule id="b467-edea-85c7-67e4" name="Inclusión" hidden="false">
@@ -7146,6 +7169,7 @@ También puedes incluir a los Gallos de Pelea de Lumpin’ Croop como unidad Sin
             <selectionEntry id="d935-90a3-e131-6988" name="Guardia republicana de Ricco" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba0f-f278-867d-6c0a" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="13ef-c102-bcd4-f207" type="max"/>
               </constraints>
               <rules>
                 <rule id="20cd-4465-840d-380d" name="Inclusión" hidden="false">
@@ -7626,6 +7650,7 @@ También puedes incluir a los Gallos de Pelea de Lumpin’ Croop como unidad Sin
             <selectionEntry id="87db-0610-c5b4-b004" name="Incursores de Tichi Huichi" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="886c-fc9b-87cf-ecf2" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="34d1-ccec-4c6e-ab89" type="max"/>
               </constraints>
               <profiles>
                 <profile id="9b6a-c8d4-0121-8379" name="Gélido de Gran Cresta" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
@@ -8005,6 +8030,9 @@ Puedes incluir a los Incursores de Tichi Huichi en cualquier otro ejército (exc
               </costs>
             </selectionEntry>
             <selectionEntry id="7e17-79a2-0889-2fa8" name="Incursores nórdicos" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c23b-e7e7-06fa-ac7f" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="7556-0570-3db4-8182" name="Incursor" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -8172,6 +8200,7 @@ Puedes incluir a los Incursores de Tichi Huichi en cualquier otro ejército (exc
             <selectionEntry id="851a-07e6-4235-1df1" name="Legión Perdida de Pirazzo" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e206-0894-4029-0eae" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="563c-9602-556f-6584" type="max"/>
               </constraints>
               <rules>
                 <rule id="5772-571e-5bb7-905f" name="Inclusión" hidden="false">
@@ -8647,6 +8676,9 @@ En combate, ten en cuenta que la primera fila no tiene picas (por lo que no atac
               </costs>
             </selectionEntry>
             <selectionEntry id="215e-4cee-1a11-159c" name="Ogros toro" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08a7-a659-bc24-1af9" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="c1f1-9975-5c7a-bfee" name="Ogro toro" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -8886,6 +8918,7 @@ En combate, ten en cuenta que la primera fila no tiene picas (por lo que no atac
             <selectionEntry id="a03a-7ee9-d85f-4e2b" name="Perros del Desierto de Al Muktar" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a67-a9bc-3146-6d02" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9cb4-3562-d702-70b0" type="max"/>
               </constraints>
               <profiles>
                 <profile id="beb4-80f7-45dd-753a" name="Caballo de guerra" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
@@ -9310,6 +9343,9 @@ Puedes incluir los Perros del Desierto de Al Muktar en cualquier otro ejército 
               </costs>
             </selectionEntry>
             <selectionEntry id="1493-594f-4067-93d3" name="Piqueros" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acab-5f5e-2720-ee26" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="38e4-529d-8fc4-8bdb" name="Piquero" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
                   <characteristics>
@@ -9465,6 +9501,7 @@ Puedes incluir los Perros del Desierto de Al Muktar en cualquier otro ejército 
             <selectionEntry id="3024-8bdd-cb4e-5f57" name="Tiradores de Miragliano" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdd1-0fe2-62e1-b1bf" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c681-07fc-0a0b-9d31" type="max"/>
               </constraints>
               <rules>
                 <rule id="5f69-7418-f6b3-7c40" name="Inclusión" hidden="false">
@@ -9778,6 +9815,7 @@ Puedes incluir los Perros del Desierto de Al Muktar en cualquier otro ejército 
             <selectionEntry id="1e26-e8e4-c069-e1f8" name="Hombres Oso de Urslo" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c616-b4e1-6ee4-6584" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0c92-3acb-1080-a3b4" type="max"/>
               </constraints>
               <rules>
                 <rule id="0e35-4760-0aeb-3c34" name="Inclusión" hidden="false">
@@ -10176,6 +10214,7 @@ Puedes incluir los Perros del Desierto de Al Muktar en cualquier otro ejército 
             <selectionEntry id="b082-2c3a-7e9a-8d67" name="Jinetez de lobo de Oglah Khan " hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cacb-af1a-dedc-49e3" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1a84-6b6b-c627-2775" type="max"/>
               </constraints>
               <profiles>
                 <profile id="14bb-7800-5469-7ad3" name="Lobo gigante" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
@@ -10634,6 +10673,7 @@ Puedes incluir a los Jinetez de Oglah Khan en cualquier otro ejército de Warham
             <selectionEntry id="30cb-73be-8f37-d1cd" name="Orcos akorazados de Ruglud" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e45-a2c5-e379-0f32" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="040e-d14f-ab1f-9606" type="max"/>
               </constraints>
               <rules>
                 <rule id="159c-e569-6f33-6652" name="Inclusión" hidden="false">
