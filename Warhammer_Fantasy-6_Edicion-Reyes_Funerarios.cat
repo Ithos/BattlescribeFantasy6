@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="93c4-b6ad-9da5-4afc" name="Warhammer_Fantasy-6_Edicion-Reyes_Funerarios" revision="3" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="93c4-b6ad-9da5-4afc" name="Warhammer_Fantasy-6_Edicion-Reyes_Funerarios" revision="4" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="cf40-a424-796d-8494" name="Carros ligeros" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -182,9 +182,9 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c84-e354-3dc0-a5a5" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="81a5-2548-b01e-9321" name="Estandartes mágicos (no infantería)" hidden="false" collective="false" import="true" targetId="cc93-723d-cba1-ea6f" type="selectionEntryGroup">
+                    <entryLink id="81a5-2548-b01e-9321" name="Estandartes mágicos (carros)" hidden="false" collective="false" import="true" targetId="9c22-3924-d4c3-68d6" type="selectionEntryGroup">
                       <constraints>
-                        <constraint field="selections" scope="cf40-a424-796d-8494" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d97d-6fd4-c37c-4373" type="max"/>
+                        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d97d-6fd4-c37c-4373" type="max"/>
                       </constraints>
                     </entryLink>
                   </entryLinks>
@@ -10856,6 +10856,20 @@ La Resistencia mágica funciona contra el Fulgor de los Muertos del Arca, mientr
         <entryLink id="75bb-8e44-ace6-84b8" name="Estandarte de las palabras malditas" hidden="false" collective="false" import="true" targetId="3147-be6d-0dc9-d5d5" type="selectionEntry"/>
         <entryLink id="5be2-dc85-ae28-587d" name="Estandarte de los espejismos" hidden="false" collective="false" import="true" targetId="4639-9380-c0ca-2839" type="selectionEntry"/>
         <entryLink id="3b24-56ef-c6b3-a3c4" name="Reliquia del ojo sagrado" hidden="false" collective="false" import="true" targetId="3eb7-9846-2d78-9b45" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9c22-3924-d4c3-68d6" name="Estandartes mágicos (carros)" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80e1-cad2-3c0c-1465" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="8cb9-b442-f9d3-c922" name="Estandarte de guerra" hidden="false" collective="false" import="true" targetId="51d7-433b-78d1-64ee" type="selectionEntry"/>
+        <entryLink id="f8ae-99ba-ae77-25a0" name="Estandarte de la guardia oculta" hidden="false" collective="false" import="true" targetId="77ab-9861-7d37-b4b6" type="selectionEntry"/>
+        <entryLink id="0068-5b67-3e14-da6c" name="Estandarte de la legión no muerta" hidden="false" collective="false" import="true" targetId="3e88-7645-90a5-a699" type="selectionEntry"/>
+        <entryLink id="1e0c-9af9-ace3-0e44" name="Estandarte de las arenas" hidden="false" collective="false" import="true" targetId="5b44-2bbf-5454-65a6" type="selectionEntry"/>
+        <entryLink id="8c4d-a0a2-669e-ec29" name="Estandarte de las palabras malditas" hidden="false" collective="false" import="true" targetId="3147-be6d-0dc9-d5d5" type="selectionEntry"/>
+        <entryLink id="558a-d6f2-60d8-184f" name="Estandarte de los espejismos" hidden="false" collective="false" import="true" targetId="4639-9380-c0ca-2839" type="selectionEntry"/>
+        <entryLink id="07a7-b09e-11c7-c0e0" name="Reliquia del ojo sagrado" hidden="false" collective="false" import="true" targetId="3eb7-9846-2d78-9b45" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
