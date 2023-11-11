@@ -184,7 +184,7 @@
                   <entryLinks>
                     <entryLink id="81a5-2548-b01e-9321" name="Estandartes mágicos (no infantería)" hidden="false" collective="false" import="true" targetId="cc93-723d-cba1-ea6f" type="selectionEntryGroup">
                       <constraints>
-                        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d97d-6fd4-c37c-4373" type="max"/>
+                        <constraint field="selections" scope="cf40-a424-796d-8494" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d97d-6fd4-c37c-4373" type="max"/>
                       </constraints>
                     </entryLink>
                   </entryLinks>
