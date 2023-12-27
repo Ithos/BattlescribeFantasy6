@@ -2452,7 +2452,7 @@ uno o más Señores de las Bestias en la unidad, ésta no sufre Estupidez (a no 
       <modifiers>
         <modifier type="increment" field="9c38-c6d0-9c51-4c65" value="1.0">
           <repeats>
-            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="12d6-7db4-a6da-9382" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5ca5-7028-ac4f-56b4" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>

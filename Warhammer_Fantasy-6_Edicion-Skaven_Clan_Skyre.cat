@@ -90,6 +90,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -106,6 +109,9 @@
               <infoLinks>
                 <infoLink id="b865-6cdc-21e2-cc57" name="Pistola de piedra bruja" hidden="false" targetId="5194-abbb-2fa8-ad7e" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -126,6 +132,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="84b9-ae7b-8727-d827" name="Acumulador sobrealimentado de energía de piedra bruja" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -138,6 +147,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -2653,12 +2665,12 @@ uno o más Señores de las Bestias en la unidad, ésta no sufre Estupidez (a no 
       <modifiers>
         <modifier type="increment" field="cbee-d76d-421d-66dd" value="1.0">
           <repeats>
-            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b319-1aaf-9b0f-2e8b" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1a1e-b85d-c12e-fe6a" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbee-d76d-421d-66dd" type="min"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbee-d76d-421d-66dd" type="max"/>
       </constraints>
       <profiles>
         <profile id="0123-1486-d547-f000" name="Monje de plaga" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
@@ -2887,7 +2899,7 @@ no se le permitiese (aunque la carga proceda de un arrasamiento, por ejemplo). <
       <modifiers>
         <modifier type="increment" field="9c38-c6d0-9c51-4c65" value="1.0">
           <repeats>
-            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1a1e-b85d-c12e-fe6a" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5ca5-7028-ac4f-56b4" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
