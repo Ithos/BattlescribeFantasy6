@@ -2213,7 +2213,7 @@ no hay personajes en la unidad, las Ratas Gigantes deberán cargar contra el ene
       <modifiers>
         <modifier type="increment" field="56b4-178e-b9ed-25d7" value="1.0">
           <repeats>
-            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1a1e-b85d-c12e-fe6a" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="72b8-662d-dce8-37f4" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>

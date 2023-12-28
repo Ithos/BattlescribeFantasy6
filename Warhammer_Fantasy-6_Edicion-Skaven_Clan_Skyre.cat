@@ -80,6 +80,7 @@
             <selectionEntry id="2b8a-7181-e2ca-fd56" name="Cuchillas de piedra bruja" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb8a-38dd-49f0-5e15" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d4d-03ce-6db4-4435" type="min"/>
               </constraints>
               <profiles>
                 <profile id="adc1-3e2e-3e7b-cfe9" name="Cuchillas de piedra bruja" hidden="false" typeId="83dc-30c1-3c91-3ea4" typeName="Arma">
@@ -99,12 +100,13 @@
         <selectionEntryGroup id="0dea-757c-2f2c-1d40" name="Armas de proyectiles" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aeef-d9d6-cb16-da4c" type="max"/>
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eff6-013c-e8ff-b879" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eff6-013c-e8ff-b879" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="9f36-f8cb-062d-cbb3" name="Pistola de piedra bruja" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6999-abea-0bbf-5042" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="845f-d38d-896d-0067" type="min"/>
               </constraints>
               <infoLinks>
                 <infoLink id="b865-6cdc-21e2-cc57" name="Pistola de piedra bruja" hidden="false" targetId="5194-abbb-2fa8-ad7e" type="profile"/>
@@ -124,6 +126,7 @@
             <selectionEntry id="5567-947c-c178-8c4d" name="Condensador mejorado de energía de piedra bruja" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7568-4330-b0ca-cce7" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9368-ad0e-7898-e3cb" type="min"/>
               </constraints>
               <profiles>
                 <profile id="af56-42d7-4e1e-ef0f" name="Condensador mejorado de energía de piedra bruja" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -139,6 +142,7 @@
             <selectionEntry id="84b9-ae7b-8727-d827" name="Acumulador sobrealimentado de energía de piedra bruja" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cb9-7f44-d913-fe25" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20b8-e11e-2567-0d67" type="min"/>
               </constraints>
               <profiles>
                 <profile id="4623-ab62-f1f1-825d" name="Acumulador sobrealimentado de energía de piedra bruja" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
