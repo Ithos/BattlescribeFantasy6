@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="88fd-bc7b-a990-f36e" name="Warhammer_Fantasy-6_Edicion-Elfos_Oscuros" revision="3" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="88fd-bc7b-a990-f36e" name="Warhammer_Fantasy-6_Edicion-Elfos_Oscuros" revision="4" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b1c8-bbe3-91ba-8a62" name="Carro de gélidos" hidden="false" collective="false" import="true" type="unit">
       <rules>
@@ -11664,6 +11664,9 @@ Se tira para impactar normalmente, se puede aguantar y disparar con él y no est
                   <categoryLinks>
                     <categoryLink id="2828-ee62-d2ce-3836" name="Unidad singular" hidden="false" targetId="184a-30ec-bf7c-b603" primary="false"/>
                   </categoryLinks>
+                  <costs>
+                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -12300,7 +12303,7 @@ Empujado. Una plataforma no mueve por sí sola. Sin embargo, puede incluirse den
       <profiles>
         <profile id="b261-79a5-b6a4-80a2" name="Estandarte de la Sangre" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
           <characteristics>
-            <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">Declara su uso en la fase de cargas, después de haber declarado todas las cargas y reacciones. La unidad añade +3D6cm a su movimiento de carga. Si falla la carga, su movimiento de carga fallida será su movimiento habitual (no influye este movimiento adicional). </characteristic>
+            <characteristic name="Propiedades mágicas" typeId="e33b-a1fc-9f43-c88d">Declara su uso en la fase de cargas, después de haber declarado todas las cargas y reacciones. La unidad añade +1D6 * 2.5 cm a su movimiento de carga. Si falla la carga, su movimiento de carga fallida será su movimiento habitual (no influye este movimiento adicional).  La conversión por redondeo se realiza de la siguiente forma 1 -&gt; 3cm  2 -&gt; 5cm  3 -&gt; 8cm  4 -&gt; 10 cm  5 -&gt; 13cm  6 -&gt; 15 cm </characteristic>
           </characteristics>
         </profile>
       </profiles>
