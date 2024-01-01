@@ -347,13 +347,14 @@
             </selectionEntryGroup>
             <selectionEntryGroup id="be53-9232-0a0c-9904" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="19c4-2fce-8b80-0260">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddb6-d908-4809-f4d8" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddb6-d908-4809-f4d8" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f233-be73-7b13-eddd" type="min"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="19c4-2fce-8b80-0260" name="Arma de mano" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19e2-3b3d-e055-0e95" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5641-926e-efd8-cec1" type="min"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="c750-264b-3afe-5e1d" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
@@ -487,6 +488,7 @@
                 <selectionEntry id="830c-34ab-13ae-1c44" name="Arma de mano" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65ce-8426-f8bf-59bb" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7383-429e-a88d-4c05" type="min"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="890d-8d9b-db65-7d60" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
@@ -1319,13 +1321,14 @@
             </selectionEntryGroup>
             <selectionEntryGroup id="d03b-5cb9-a61f-9438" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="ce29-cb80-f0b4-4fcd">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c884-113a-fcd4-9f01" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c884-113a-fcd4-9f01" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e473-6064-d0a1-5085" type="min"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="ce29-cb80-f0b4-4fcd" name="Arma de mano" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c942-4085-ec25-901d" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3b8-5976-3642-4d28" type="min"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="3c58-e27a-9b0e-68fa" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
@@ -1570,13 +1573,14 @@
           <selectionEntryGroups>
             <selectionEntryGroup id="254b-acc1-aa9b-e659" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="4207-de43-0716-349b">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0801-5198-c3a3-142f" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0801-5198-c3a3-142f" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d44-bde7-f1e8-7c6b" type="min"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="4207-de43-0716-349b" name="Arma de mano" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4fc-51dc-bb78-0202" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6a7-0c05-9141-8123" type="min"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="413e-c7df-d204-f2fa" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
@@ -1702,23 +1706,12 @@
     </selectionEntry>
     <selectionEntry id="03a2-5118-8319-fddf" name="Hechicero del Caos" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="set" field="f5c2-5151-7603-605e" value="0.0">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7113-0afc-7210-827e" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4424-43dc-2d5a-5771" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e2-a1f4-b177-f3c1" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7d07-396c-0507-4036" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96db-294c-9658-07ab" type="greaterThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6cdf-ef4d-ac7a-8646" type="greaterThan"/>
+          </conditions>
         </modifier>
       </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5c2-5151-7603-605e" type="min"/>
-      </constraints>
       <profiles>
         <profile id="a5fc-bc35-d2e5-495e" name="Hechicero del Caos" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
           <characteristics>
@@ -2099,6 +2092,18 @@
               <costs>
                 <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="20.0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry id="8e60-929f-ec30-0747" name="Marca de Tzeench" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b60e-c360-b63a-c59c" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="551c-1265-a0a6-dd29" type="max"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -3163,24 +3168,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4424-43dc-2d5a-5771" name="Paladín Legendario del Caos" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="set" field="e6a2-83fc-63b1-cc1f" value="0.0">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7113-0afc-7210-827e" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96db-294c-9658-07ab" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e2-a1f4-b177-f3c1" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7d07-396c-0507-4036" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="03a2-5118-8319-fddf" type="greaterThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6a2-83fc-63b1-cc1f" type="min"/>
-      </constraints>
       <profiles>
         <profile id="fe12-7737-c2e3-52f2" name="Paladín Legendario del Caos" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
           <characteristics>
@@ -3690,23 +3677,12 @@
     </selectionEntry>
     <selectionEntry id="7d07-396c-0507-4036" name="Gran hechicero del Caos" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="set" field="60fa-89c0-c5aa-e388" value="0.0">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7113-0afc-7210-827e" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4424-43dc-2d5a-5771" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30e2-a1f4-b177-f3c1" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="03a2-5118-8319-fddf" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96db-294c-9658-07ab" type="greaterThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6cdf-ef4d-ac7a-8646" type="greaterThan"/>
+          </conditions>
         </modifier>
       </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60fa-89c0-c5aa-e388" type="min"/>
-      </constraints>
       <profiles>
         <profile id="008b-42d9-22ba-4ccf" name="Gran hechicero del Caos" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
           <characteristics>
@@ -4102,6 +4078,18 @@
                 <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="25.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="69d1-8d91-a5e9-4da4" name="Marca de Tzeench" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b60e-c360-b63a-c59c" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0534-ced4-a8fd-b9bd" type="max"/>
+              </constraints>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4110,24 +4098,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="30e2-a1f4-b177-f3c1" name="Señor del Caos" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="set" field="6be2-6947-dc2e-225c" value="0.0">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7113-0afc-7210-827e" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4424-43dc-2d5a-5771" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7d07-396c-0507-4036" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="03a2-5118-8319-fddf" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96db-294c-9658-07ab" type="greaterThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6be2-6947-dc2e-225c" type="min"/>
-      </constraints>
       <profiles>
         <profile id="631d-d659-06fc-49c1" name="Señor del Caos" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
           <characteristics>
@@ -13257,11 +13227,10 @@ Se tira para impactar normalmente, se puede aguantar y disparar con él y no est
       </profiles>
       <rules>
         <rule id="a333-afcc-f3af-de5f" name="Cadenas Humanas" hidden="false">
-          <description>Los desolladores pueden trepar como si estuvieran equipados con ganchos de escalada. Cualquier miniatura que no este montada que intente trepar una sección de muro o torre por la que han trepado 5 o más Desolladores puede trepar como si estuviera equipada con hasta conco escalas. Los desolladores ignoran las penalizaciones por atacar a traves de obstaculos defendidos.</description>
+          <description>Los desolladores pueden trepar como si estuvieran equipados con ganchos de escalada. Cualquier miniatura que no este montada que intente trepar una sección de muro o torre por la que han trepado 5 o más Desolladores puede trepar como si estuviera equipada con hasta cinco escalas. Los desolladores ignoran las penalizaciones por atacar a traves de obstaculos defendidos.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="61b5-b212-86f0-aa3d" name="Marcas del Caos" hidden="false" targetId="7a29-db77-2ea1-6f3d" type="rule"/>
         <infoLink id="a79f-7787-9525-fd76" name="Dios del Caos" hidden="false" targetId="6aae-04fe-3715-466c" type="rule"/>
         <infoLink id="19f4-d5b8-791f-dcf3" name="Hostigadores" hidden="false" targetId="4717-34b5-7e01-9c40" type="rule"/>
         <infoLink id="fd69-1bd6-f12c-8189" name="Golpe letal (6+)" hidden="false" targetId="917d-4fe5-c45b-ca64" type="rule"/>
@@ -13291,6 +13260,9 @@ Se tira para impactar normalmente, se puede aguantar y disparar con él y no est
                   <infoLinks>
                     <infoLink id="8493-88a7-dd97-29de" name="Arma de mano adicional " hidden="false" targetId="ea69-c00a-f73d-2263" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -13310,8 +13282,14 @@ Se tira para impactar normalmente, se puede aguantar y disparar con él y no est
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <costs>
+            <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="81d0-fc2c-d2c7-a347" name="Guerreros Elegidos del Caos " hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -13581,13 +13559,14 @@ Se tira para impactar normalmente, se puede aguantar y disparar con él y no est
             </selectionEntryGroup>
             <selectionEntryGroup id="52c1-2feb-8d46-95be" name="Armas" hidden="false" collective="false" import="true">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d96-c792-e85c-f2a2" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d96-c792-e85c-f2a2" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b918-fd26-7550-0d3f" type="min"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="a508-5e57-9e6e-ed12" name="Arma de mano" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d1c-6f64-6770-9435" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a19-726e-4159-d98c" type="min"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="ad8b-9f1f-3e5b-a5d0" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
@@ -13821,7 +13800,7 @@ Se tira para impactar normalmente, se puede aguantar y disparar con él y no est
         <infoLink id="d596-133c-ed4b-0c51" name="Dios del Caos" hidden="false" targetId="6aae-04fe-3715-466c" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c10f-6651-937f-dfbf" name="Unidad básica" hidden="false" targetId="ba68-224b-3224-a908" primary="true"/>
+        <categoryLink id="58c5-e457-adfa-4963" name="Unidad especial" hidden="false" targetId="102e-012c-5785-3354" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="551d-980b-5044-2f23" name="Caballeros del Caos" hidden="false" collective="false" import="true" type="upgrade">
@@ -13838,6 +13817,7 @@ Se tira para impactar normalmente, se puede aguantar y disparar con él y no est
                 <selectionEntry id="a4c0-726c-3431-5764" name="Arma de mano" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb06-4866-4c1c-7512" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c020-17c2-0522-4df7" type="min"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="1815-1342-f461-d34a" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
