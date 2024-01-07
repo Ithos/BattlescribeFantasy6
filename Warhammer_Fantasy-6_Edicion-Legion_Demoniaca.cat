@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d5d5-5c6e-21d4-b471" name="Warhammer_Fantasy-6_Edicion-Legion_Demoniaca" revision="1" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d5d5-5c6e-21d4-b471" name="Warhammer_Fantasy-6_Edicion-Legion_Demoniaca" revision="2" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="d146-7182-ddfb-2c3c" name="Aulladores de Tzeentch" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -7153,7 +7153,6 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="1ad0-728f-1a5d-8160" name="Disrupción del Caos" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="082f-5113-b34c-d4cf" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1355-f4b0-b16e-fb22" type="max"/>
           </constraints>
           <profiles>
             <profile id="7ff2-2254-0d96-cd94" name="Disrupción del Caos" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -7169,7 +7168,6 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="5e38-4af3-18cd-8bcd" name="Arma infernal" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e3cf-5442-52c6-7657" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="253e-f87e-7b14-f62b" type="max"/>
           </constraints>
           <profiles>
             <profile id="543c-5ff7-1915-d7f4" name="Arma infernal" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -7185,7 +7183,6 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="f5d2-03ae-5774-6201" name="Aura de gloria infernal" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dfba-4c58-c8d3-73a1" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18ec-e7d3-493d-020e" type="max"/>
           </constraints>
           <profiles>
             <profile id="c420-8888-014f-18e7" name="Aura de gloria infernal" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -7201,7 +7198,6 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="6885-663a-305b-230f" name="Avidez de almas" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f508-2d8b-1a44-21cc" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f55-60be-ba82-b3cc" type="max"/>
           </constraints>
           <profiles>
             <profile id="63d2-2b34-349f-21a9" name="Avidez de almas" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -7217,7 +7213,6 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="6446-5fce-bf91-f7b8" name="Rompehechizos" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="65bf-9a17-e721-7fe9" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="116d-2d87-d7a3-c01b" type="max"/>
           </constraints>
           <profiles>
             <profile id="b9aa-21eb-c845-3ae8" name="Rompehechizos" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -7233,7 +7228,6 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="2029-831a-36a9-0eec" name="Esplendor diabólico" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="56ab-4cbe-9241-03a2" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="833f-b814-f427-b8bb" type="max"/>
           </constraints>
           <profiles>
             <profile id="41be-2590-e7af-65eb" name="Esplendor diabólico" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -7253,7 +7247,6 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="329f-895a-0511-cad1" name="Collar de Khorne" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="53d1-f616-7419-11a8" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f741-8229-9913-fe8f" type="max"/>
           </constraints>
           <profiles>
             <profile id="1611-53cd-cfad-7550" name="Collar de Khorne" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -7269,7 +7262,6 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="d638-e54a-5722-c75f" name="Hacha de Khorne" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f834-b078-56f3-ecfb" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b56d-a44f-2324-72f0" type="max"/>
           </constraints>
           <profiles>
             <profile id="e40a-720a-c83c-4722" name="Hacha de Khorne" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -7285,7 +7277,6 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="c9e6-1bae-2614-f28a" name="Armadura de Khorne" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="adab-f22a-f785-c9dd" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a21a-b7f4-8b30-feac" type="max"/>
           </constraints>
           <profiles>
             <profile id="222a-ee50-77b8-b42b" name="Armadura de Khorne" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -7301,7 +7292,6 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="ff03-b3b8-b64b-5c45" name="Poder de Khorne" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="653e-46fa-30d4-236c" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="643c-40a3-848d-9776" type="max"/>
           </constraints>
           <profiles>
             <profile id="6765-c6c5-ad93-346f" name="Poder de Khorne" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -7321,7 +7311,6 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="2d91-cc04-45a8-97c2" name="Nube de moscas" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7b96-e2ce-9e68-41cd" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="556c-a25d-ce81-271f" type="max"/>
           </constraints>
           <profiles>
             <profile id="9405-5a3b-7657-be3f" name="Nube de moscas" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -7337,7 +7326,6 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="48bd-7813-db23-b4fe" name="Torrente de corrupción" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="38d7-b1e2-96b8-c27e" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4c5-4596-253b-53fb" type="max"/>
           </constraints>
           <profiles>
             <profile id="8ee4-325d-d031-ce83" name="Torrente de corrupción" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -7353,7 +7341,6 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="cf58-e238-cfdb-58f9" name="Mayal de plaga" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ab73-b352-9788-d4b3" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e935-71aa-94a7-c8b8" type="max"/>
           </constraints>
           <profiles>
             <profile id="2ad5-a289-1429-0e21" name="Mayal de plaga" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -7373,7 +7360,6 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="0c09-c0bf-0107-e304" name="Almizcle soporífero" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="94a8-efaa-06c5-8f08" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6291-b2aa-9b31-60e8" type="max"/>
           </constraints>
           <profiles>
             <profile id="0bf7-7bef-2327-359c" name="Almizcle soporífero" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -7389,7 +7375,6 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="f632-9769-b321-ba2a" name="Mirada de sometimiento" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d711-3039-7456-d71c" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dac5-53ad-1979-cd39" type="max"/>
           </constraints>
           <profiles>
             <profile id="a472-bd70-535e-8522" name="Mirada de sometimiento" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -7405,7 +7390,6 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="0f5e-69cd-4603-5c07" name="Aura de Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d402-7280-5833-6ebc" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="311d-1aea-995e-06f9" type="max"/>
           </constraints>
           <profiles>
             <profile id="60bd-2769-8040-8e85" name="Aura de Slaanesh" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -7425,7 +7409,6 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="a66e-f4da-1fa0-981e" name="Destruyehechizos" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="04b9-d117-fd23-d9cd" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e970-6451-9086-3f84" type="max"/>
           </constraints>
           <profiles>
             <profile id="9617-8384-08db-a0c8" name="Destruyehechizos" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -7441,7 +7424,6 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="e0cf-c8b6-a584-b8dc" name="Maestro de la hechicería" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fd07-e6fd-8ec8-be23" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="377a-0beb-04de-ff8c" type="max"/>
           </constraints>
           <profiles>
             <profile id="ae38-5a74-e81a-9991" name="Maestro de la hechicería" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -7457,7 +7439,6 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="c296-f65e-aba7-a99c" name="Voluntad de Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8233-4c41-598f-c138" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18c9-8113-3ade-cc69" type="max"/>
           </constraints>
           <profiles>
             <profile id="f3dd-3aa7-de12-d74a" name="Voluntad de Tzeentch" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -7473,7 +7454,6 @@ chequeo de Resistencia; si lo falla, sufre una herida que Anula armadura. Las mi
         <selectionEntry id="5188-38fc-4b8a-6c2c" name="Vórtice de poder" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="19e4-daa3-8956-ab54" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9707-93ed-89d6-898f" type="max"/>
           </constraints>
           <profiles>
             <profile id="a588-8eb3-acc9-64c5" name="Vórtice de poder" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
