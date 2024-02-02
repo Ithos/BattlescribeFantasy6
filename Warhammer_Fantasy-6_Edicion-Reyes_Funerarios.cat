@@ -1383,11 +1383,7 @@ mágica, pierde el Golpe Letal.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bb5-e396-8e9f-6a99" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="64bd-d267-863c-b593" name="Estandartes mágicos" hidden="false" collective="false" import="true" targetId="59b9-7426-7668-b734" type="selectionEntryGroup">
-                      <constraints>
-                        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9c01-b5b6-0608-49d7" type="max"/>
-                      </constraints>
-                    </entryLink>
+                    <entryLink id="64bd-d267-863c-b593" name="Estandartes mágicos (esqueletos)" hidden="false" collective="false" import="true" targetId="153d-5793-c3d5-7ca7" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -2017,7 +2013,7 @@ mágica, pierde el Golpe Letal.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a99a-0cbc-3382-176e" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="972e-24d4-24a3-7ec2" name="Estandartes mágicos" hidden="false" collective="false" import="true" targetId="59b9-7426-7668-b734" type="selectionEntryGroup"/>
+                    <entryLink id="972e-24d4-24a3-7ec2" name="Estandartes mágicos (guardia del sepulcro)" hidden="false" collective="false" import="true" targetId="99b1-73c7-db72-6509" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -11304,6 +11300,37 @@ La Resistencia mágica funciona contra el Fulgor de los Muertos del Arca, mientr
         <entryLink id="8c4d-a0a2-669e-ec29" name="Estandarte de las palabras malditas" hidden="false" collective="false" import="true" targetId="3147-be6d-0dc9-d5d5" type="selectionEntry"/>
         <entryLink id="558a-d6f2-60d8-184f" name="Estandarte de los espejismos" hidden="false" collective="false" import="true" targetId="4639-9380-c0ca-2839" type="selectionEntry"/>
         <entryLink id="07a7-b09e-11c7-c0e0" name="Reliquia del ojo sagrado" hidden="false" collective="false" import="true" targetId="3eb7-9846-2d78-9b45" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="153d-5793-c3d5-7ca7" name="Estandartes mágicos (esqueletos)" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d84-2e50-6bd6-4af7" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eec9-00e7-bb96-b2b0" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="4a06-d7ba-28b5-1863" name="Estandarte de guerra" hidden="false" collective="false" import="true" targetId="51d7-433b-78d1-64ee" type="selectionEntry"/>
+        <entryLink id="314b-c9ec-d71e-4b49" name="Estandarte de la guardia oculta" hidden="false" collective="false" import="true" targetId="77ab-9861-7d37-b4b6" type="selectionEntry"/>
+        <entryLink id="3533-b527-9688-c5a4" name="Estandarte de la legión no muerta" hidden="false" collective="false" import="true" targetId="3e88-7645-90a5-a699" type="selectionEntry"/>
+        <entryLink id="d907-20c8-a26b-39bb" name="Estandarte de las arenas" hidden="false" collective="false" import="true" targetId="5b44-2bbf-5454-65a6" type="selectionEntry"/>
+        <entryLink id="a4ea-6b91-463b-dbbf" name="Estandarte de las palabras malditas" hidden="false" collective="false" import="true" targetId="3147-be6d-0dc9-d5d5" type="selectionEntry"/>
+        <entryLink id="3a72-dee3-3be8-6b51" name="Estandarte de los espejismos" hidden="false" collective="false" import="true" targetId="4639-9380-c0ca-2839" type="selectionEntry"/>
+        <entryLink id="4438-1992-2209-6676" name="Icono de Rakaph" hidden="false" collective="false" import="true" targetId="d0d8-47b8-9374-6208" type="selectionEntry"/>
+        <entryLink id="9383-7a37-667a-f6d9" name="Reliquia del ojo sagrado" hidden="false" collective="false" import="true" targetId="3eb7-9846-2d78-9b45" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="99b1-73c7-db72-6509" name="Estandartes mágicos (guardia del sepulcro)" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a95e-bf00-4cca-1b2b" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="235a-20eb-717d-3ccb" name="Estandarte de guerra" hidden="false" collective="false" import="true" targetId="51d7-433b-78d1-64ee" type="selectionEntry"/>
+        <entryLink id="1fde-4fdc-e621-c2cd" name="Estandarte de la guardia oculta" hidden="false" collective="false" import="true" targetId="77ab-9861-7d37-b4b6" type="selectionEntry"/>
+        <entryLink id="e309-3e15-e159-c4cf" name="Estandarte de la legión no muerta" hidden="false" collective="false" import="true" targetId="3e88-7645-90a5-a699" type="selectionEntry"/>
+        <entryLink id="bf13-7098-b63e-fb57" name="Estandarte de las arenas" hidden="false" collective="false" import="true" targetId="5b44-2bbf-5454-65a6" type="selectionEntry"/>
+        <entryLink id="14cc-d370-2ba4-9bb3" name="Estandarte de las palabras malditas" hidden="false" collective="false" import="true" targetId="3147-be6d-0dc9-d5d5" type="selectionEntry"/>
+        <entryLink id="3661-cf92-2597-f601" name="Estandarte de los espejismos" hidden="false" collective="false" import="true" targetId="4639-9380-c0ca-2839" type="selectionEntry"/>
+        <entryLink id="b718-f2f9-10f2-eb99" name="Icono de Rakaph" hidden="false" collective="false" import="true" targetId="d0d8-47b8-9374-6208" type="selectionEntry"/>
+        <entryLink id="7f1d-c6f9-2bc1-8e4a" name="Reliquia del ojo sagrado" hidden="false" collective="false" import="true" targetId="3eb7-9846-2d78-9b45" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
