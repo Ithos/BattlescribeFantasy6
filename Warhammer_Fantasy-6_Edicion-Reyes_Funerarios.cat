@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="93c4-b6ad-9da5-4afc" name="Warhammer_Fantasy-6_Edicion-Reyes_Funerarios" revision="6" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="93c4-b6ad-9da5-4afc" name="Warhammer_Fantasy-6_Edicion-Reyes_Funerarios" revision="7" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="cf40-a424-796d-8494" name="Carros ligeros" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -2069,6 +2069,7 @@ mágica, pierde el Golpe Letal.</description>
                 <selectionEntry id="034b-bd6c-10d7-8bdd" name="Arma de mano" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8665-2fa1-0658-443f" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2dc-c5ed-fe26-92ec" type="min"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="1973-e93d-bcfd-d013" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
@@ -2082,11 +2083,13 @@ mágica, pierde el Golpe Letal.</description>
             <selectionEntryGroup id="b776-30dd-9889-f7bd" name="Escudo" hidden="false" collective="false" import="true" defaultSelectionEntryId="b5b8-551a-fddd-20c0">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fa7-c556-ab3b-c5f1" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d24b-9a72-724b-c97e" type="min"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="b5b8-551a-fddd-20c0" name="Escudo" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dfa-2ee1-b5a1-6b5d" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40c8-d178-8e1a-97a0" type="min"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="db5b-1db3-3555-eeef" name="Escudo" hidden="false" targetId="1e84-3cd7-87ca-0372" type="profile"/>
