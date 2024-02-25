@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="af58-4303-e5f7-6815" name="Warhammer_Fantasy-6_Edicion-Condes_Vampiro" revision="4" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="af58-4303-e5f7-6815" name="Warhammer_Fantasy-6_Edicion-Condes_Vampiro" revision="5" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="92e8-3112-6546-6321" name="Maestro nigromante" hidden="false" collective="false" import="true" type="model">
       <modifiers>
@@ -3734,26 +3734,6 @@ de las armas). Sin embargo, si usa arma mágica se pierde.</description>
               </entryLinks>
               <costs>
                 <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="300.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="9e83-ac39-bef6-5fff" name="Escudo" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0512-039f-3177-2fd8" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0975-f0e2-7c95-e8d9" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="1785-d89f-47c5-8702" name="Escudo" hidden="false" collective="true" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0189-e6f3-c9af-fdd0" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffc5-61b7-04a0-deb1" type="min"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="fc7a-cffd-6630-1899" name="Escudo" hidden="false" targetId="1e84-3cd7-87ca-0372" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -13124,6 +13104,9 @@ Se tira para impactar normalmente, se puede aguantar y disparar con él y no est
                   <categoryLinks>
                     <categoryLink id="9b16-2c07-222b-7e96" name="Unidad singular" hidden="false" targetId="184a-30ec-bf7c-b603" primary="false"/>
                   </categoryLinks>
+                  <costs>
+                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
