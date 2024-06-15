@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b1c2-2288-abba-9142" name="Warhammer_Fantasy-6_Edicion-Enanos" revision="6" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b1c2-2288-abba-9142" name="Warhammer_Fantasy-6_Edicion-Enanos" revision="7" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="7a7d-0d8b-93d0-45c4" name="Señor de los enanos" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -14015,7 +14015,14 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="5bf6-2b5a-b025-f472" name="Runa de arma" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5bf6-2b5a-b025-f472" name="Runa de arma" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5f53-cda4-5205-cbc2" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31a4-6c49-13cd-cd76" type="max"/>
           </constraints>
@@ -14429,7 +14436,7 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3a90-6177-7c7d-4540" type="greaterThan"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1806-5e69-d939-2530" type="greaterThan"/>
                         <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5b8d-7d92-91d7-e0cf" type="equalTo"/>
                         <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a454-1ddc-e74f-de14" type="equalTo"/>
                       </conditions>
@@ -14644,8 +14651,8 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                         <conditionGroup type="and">
                           <conditions>
                             <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a454-1ddc-e74f-de14" type="equalTo"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a830-ccb0-c375-7580" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58e1-41ea-6e2f-7671" type="greaterThan"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1806-5e69-d939-2530" type="greaterThan"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5fdd-bed8-9c0a-e111" type="greaterThan"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -14823,8 +14830,8 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                         <conditionGroup type="and">
                           <conditions>
                             <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a454-1ddc-e74f-de14" type="equalTo"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3a90-6177-7c7d-4540" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58e1-41ea-6e2f-7671" type="greaterThan"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1806-5e69-d939-2530" type="greaterThan"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dace-4370-bf9c-b666" type="greaterThan"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -14875,8 +14882,8 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                         <conditionGroup type="and">
                           <conditions>
                             <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a454-1ddc-e74f-de14" type="equalTo"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5790-9372-7fd4-b0a4" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58e1-41ea-6e2f-7671" type="greaterThan"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1806-5e69-d939-2530" type="greaterThan"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ba68-76f7-19fc-71f3" type="greaterThan"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -15220,8 +15227,8 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                         <conditionGroup type="and">
                           <conditions>
                             <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a454-1ddc-e74f-de14" type="equalTo"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab9a-41d8-a72c-b3fa" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58e1-41ea-6e2f-7671" type="greaterThan"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1806-5e69-d939-2530" type="greaterThan"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e7aa-ebfe-7935-c4a8" type="greaterThan"/>
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="and">
@@ -19151,29 +19158,29 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                           <conditionGroups>
                             <conditionGroup type="and">
                               <conditions>
-                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58e1-41ea-6e2f-7671" type="greaterThan"/>
-                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1806-5e69-d939-2530" type="greaterThan"/>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8bb2-18d0-2b90-7889" type="greaterThan"/>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0321-907c-38c8-a59f" type="greaterThan"/>
                               </conditions>
                             </conditionGroup>
                             <conditionGroup type="and">
                               <conditions>
-                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1806-5e69-d939-2530" type="greaterThan"/>
-                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f01f-4544-084c-c2c1" type="greaterThan"/>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0321-907c-38c8-a59f" type="greaterThan"/>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8358-5440-dc57-8648" type="greaterThan"/>
                               </conditions>
                             </conditionGroup>
                             <conditionGroup type="and">
                               <conditions>
-                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f01f-4544-084c-c2c1" type="greaterThan"/>
-                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1806-5e69-d939-2530" type="greaterThan"/>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8358-5440-dc57-8648" type="greaterThan"/>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0321-907c-38c8-a59f" type="greaterThan"/>
                               </conditions>
                             </conditionGroup>
                           </conditionGroups>
                         </conditionGroup>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8bb2-18d0-2b90-7889" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8358-5440-dc57-8648" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0321-907c-38c8-a59f" type="greaterThan"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58e1-41ea-6e2f-7671" type="greaterThan"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f01f-4544-084c-c2c1" type="greaterThan"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1806-5e69-d939-2530" type="greaterThan"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -20116,18 +20123,26 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="or">
-                          <conditions>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0321-907c-38c8-a59f" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8358-5440-dc57-8648" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8bb2-18d0-2b90-7889" type="greaterThan"/>
-                          </conditions>
-                        </conditionGroup>
-                        <conditionGroup type="or">
-                          <conditions>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8bb2-18d0-2b90-7889" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8358-5440-dc57-8648" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0321-907c-38c8-a59f" type="greaterThan"/>
-                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8bb2-18d0-2b90-7889" type="greaterThan"/>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8358-5440-dc57-8648" type="greaterThan"/>
+                              </conditions>
+                            </conditionGroup>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0321-907c-38c8-a59f" type="greaterThan"/>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8bb2-18d0-2b90-7889" type="greaterThan"/>
+                              </conditions>
+                            </conditionGroup>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0321-907c-38c8-a59f" type="greaterThan"/>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8358-5440-dc57-8648" type="greaterThan"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
                         </conditionGroup>
                       </conditionGroups>
                     </conditionGroup>
@@ -24349,7 +24364,7 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                 <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="100.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="fd82-13b2-8b91-5efd" name="Runa Triple Magistral de agilidad, rapidez y poder" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="fd82-13b2-8b91-5efd" name="Runa Triple Magistral de agilidad, rapidez y poder" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -25606,16 +25621,16 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1c33-55c6-d931-603b" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ddf6-c283-3e43-1f3b" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c5d6-e702-135f-d826" type="greaterThan"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58e1-41ea-6e2f-7671" type="greaterThan"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f01f-4544-084c-c2c1" type="greaterThan"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1806-5e69-d939-2530" type="greaterThan"/>
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1c33-55c6-d931-603b" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ddf6-c283-3e43-1f3b" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c5d6-e702-135f-d826" type="greaterThan"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58e1-41ea-6e2f-7671" type="greaterThan"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f01f-4544-084c-c2c1" type="greaterThan"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1806-5e69-d939-2530" type="greaterThan"/>
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="or">
@@ -25727,81 +25742,6 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
               </infoLinks>
               <costs>
                 <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="45.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="65d3-d5c4-a961-4c8d" name="Runa Triple de agravio y doble ataque" hidden="true" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a454-1ddc-e74f-de14" type="greaterThan"/>
-                      </conditions>
-                      <conditionGroups>
-                        <conditionGroup type="or">
-                          <conditionGroups>
-                            <conditionGroup type="and">
-                              <conditions>
-                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58e1-41ea-6e2f-7671" type="greaterThan"/>
-                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1806-5e69-d939-2530" type="greaterThan"/>
-                              </conditions>
-                            </conditionGroup>
-                            <conditionGroup type="and">
-                              <conditions>
-                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1806-5e69-d939-2530" type="greaterThan"/>
-                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f01f-4544-084c-c2c1" type="greaterThan"/>
-                              </conditions>
-                            </conditionGroup>
-                            <conditionGroup type="and">
-                              <conditions>
-                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f01f-4544-084c-c2c1" type="greaterThan"/>
-                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1806-5e69-d939-2530" type="greaterThan"/>
-                              </conditions>
-                            </conditionGroup>
-                          </conditionGroups>
-                        </conditionGroup>
-                        <conditionGroup type="or">
-                          <conditions>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1c33-55c6-d931-603b" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ddf6-c283-3e43-1f3b" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c5d6-e702-135f-d826" type="greaterThan"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0541-8e9c-c097-a24a" type="max"/>
-                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7f6d-f6c3-5bf8-2e41" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="f7ef-544a-31ad-7b44" name="Runa de ataque" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
-                  <characteristics>
-                    <characteristic name="Protección" typeId="9f41-c15e-1f5f-9d01">Los ataques con un arma con esta Runa se resuelven como si el portador tuviera HA+1.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="5dd3-e192-8256-d6ce" name="Runa de ataque" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
-                  <characteristics>
-                    <characteristic name="Protección" typeId="9f41-c15e-1f5f-9d01">Los ataques con un arma con esta Runa se resuelven como si el portador tuviera HA+1.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="9b19-1dc5-b9b2-1bdf" name="Runa de los agravios" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
-                  <characteristics>
-                    <characteristic name="Protección" typeId="9f41-c15e-1f5f-9d01">Designa un personaje o monstruo enemigo. Cuando el portador de un arma con esta runa ataque a ese personaje o monstruo, puede repetir siempre las tiradas para impactar. Runas adicionales no tienen ningún efecto adicional.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="945f-77b5-d17e-47e6" name="Ley de la forma" hidden="false" targetId="e7cc-921e-3c44-6c23" type="rule"/>
-                <infoLink id="bda2-2705-a552-2c6b" name="Ley de las armas runadas" hidden="false" targetId="b63a-f0fc-53e3-207f" type="rule"/>
-                <infoLink id="d437-e50d-6ff1-0844" name="Ley de las runas celosas" hidden="false" targetId="67b9-6df0-528a-b77d" type="rule"/>
-                <infoLink id="216c-163c-2581-066d" name="Ley del orgullo" hidden="false" targetId="5a9a-6906-0c69-daa0" type="rule"/>
-                <infoLink id="80de-bcd0-4144-e782" name="Ley del tres" hidden="false" targetId="7409-1c87-9b3f-501d" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="35.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c175-5a55-026f-2390" name="Runa Triple de doble ataque de Snorri Spangelhelm" hidden="true" collective="false" import="true" type="upgrade">
@@ -26345,18 +26285,26 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="or">
-                          <conditions>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58e1-41ea-6e2f-7671" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f01f-4544-084c-c2c1" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1806-5e69-d939-2530" type="greaterThan"/>
-                          </conditions>
-                        </conditionGroup>
-                        <conditionGroup type="or">
-                          <conditions>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58e1-41ea-6e2f-7671" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f01f-4544-084c-c2c1" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1806-5e69-d939-2530" type="greaterThan"/>
-                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1806-5e69-d939-2530" type="greaterThan"/>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58e1-41ea-6e2f-7671" type="greaterThan"/>
+                              </conditions>
+                            </conditionGroup>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f01f-4544-084c-c2c1" type="greaterThan"/>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1806-5e69-d939-2530" type="greaterThan"/>
+                              </conditions>
+                            </conditionGroup>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f01f-4544-084c-c2c1" type="greaterThan"/>
+                                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58e1-41ea-6e2f-7671" type="greaterThan"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
                         </conditionGroup>
                       </conditionGroups>
                     </conditionGroup>
@@ -26852,7 +26800,7 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                 <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="60.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="de02-88fc-ffc1-1d86" name="Runa Triple Magistral de agilidad y ataque de Skalf Martillonegro" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="de02-88fc-ffc1-1d86" name="Runa Triple Magistral de agilidad y ataque de Skalf Martillonegro" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -28257,7 +28205,7 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                 <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="20.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="29ea-90eb-73b7-740f" name="Runa Triple de ataque, poder y fuego" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="29ea-90eb-73b7-740f" name="Runa Triple de ataque, poder y fuego" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -29120,7 +29068,7 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                 <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="85.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b617-76dc-f1ec-5920" name="Runa Triple Magistral de ataque de Snorri Spangelhelm y Kragg el Gruñón" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b617-76dc-f1ec-5920" name="Runa Triple Magistral de ataque de Snorri Spangelhelm y Kragg el Gruñón" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -30250,8 +30198,8 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                         <conditionGroup type="and">
                           <conditions>
                             <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a454-1ddc-e74f-de14" type="equalTo"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5b5d-a301-6030-b2cc" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58e1-41ea-6e2f-7671" type="greaterThan"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1806-5e69-d939-2530" type="greaterThan"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e66e-c444-6366-9bd5" type="greaterThan"/>
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="and">
@@ -32382,7 +32330,7 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                 <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="55.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b12a-b1dc-8dec-5589" name="Runa Triple de fuego y poder de Snorri Spanglehelm" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b12a-b1dc-8dec-5589" name="Runa Triple de fuego y poder de Snorri Spanglehelm" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -33694,7 +33642,7 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                 <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="40.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7613-c98a-cc46-90d6" name="Runa Triple de fuego, furia y fuerza" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7613-c98a-cc46-90d6" name="Runa Triple de fuego, furia y fuerza" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -34025,7 +33973,7 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                 <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="50.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6589-4d1d-7b12-9947" name="Runa Triple Magistral de fuego, furia y destrucción" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6589-4d1d-7b12-9947" name="Runa Triple Magistral de fuego, furia y destrucción" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -34484,7 +34432,7 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                 <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="55.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2767-7e80-4f28-8995" name="Runa Triple de fuego, poder y agravio" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2767-7e80-4f28-8995" name="Runa Triple de fuego, poder y agravio" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -36043,7 +35991,7 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                 <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="70.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5be3-eab9-cf34-0f0d" name="Runa Triple de poder y fuerza de Snorri Spanglehelm" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5be3-eab9-cf34-0f0d" name="Runa Triple de poder y fuerza de Snorri Spanglehelm" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -36175,7 +36123,7 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                 <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="95.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7dfd-4601-0a31-e565" name="Runa Triple Magistral de fuerza de Snorri Spanglehelm y Kragg el Gruñón" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7dfd-4601-0a31-e565" name="Runa Triple Magistral de fuerza de Snorri Spanglehelm y Kragg el Gruñón" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -40742,7 +40690,7 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                 <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="80.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4e5b-e78f-ec76-c64b" name="Runa Triple de furia y doble  poder" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4e5b-e78f-ec76-c64b" name="Runa Triple de furia y doble  poder" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -42659,7 +42607,7 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                 <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="65.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1bb6-6035-bc51-9cf4" name="Runa Triple Magistral de poder, ruina y agravio" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1bb6-6035-bc51-9cf4" name="Runa Triple Magistral de poder, ruina y agravio" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -42860,31 +42808,10 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a454-1ddc-e74f-de14" type="greaterThan"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6927-af5c-2d2a-da53" type="greaterThan"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab9a-41d8-a72c-b3fa" type="greaterThan"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e7aa-ebfe-7935-c4a8" type="greaterThan"/>
                       </conditions>
-                      <conditionGroups>
-                        <conditionGroup type="or">
-                          <conditions>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e7aa-ebfe-7935-c4a8" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6927-af5c-2d2a-da53" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab9a-41d8-a72c-b3fa" type="greaterThan"/>
-                          </conditions>
-                        </conditionGroup>
-                        <conditionGroup type="or">
-                          <conditions>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab9a-41d8-a72c-b3fa" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6927-af5c-2d2a-da53" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e7aa-ebfe-7935-c4a8" type="greaterThan"/>
-                          </conditions>
-                        </conditionGroup>
-                        <conditionGroup type="or">
-                          <conditions>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e7aa-ebfe-7935-c4a8" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6927-af5c-2d2a-da53" type="greaterThan"/>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab9a-41d8-a72c-b3fa" type="greaterThan"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
@@ -43246,7 +43173,7 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
                 <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="95.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="9ec1-df78-3b3a-94bf" name="Runa Triple Magistral Doble de Snorri Spangelhelm y de Skalf Martillonegro" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9ec1-df78-3b3a-94bf" name="Runa Triple Magistral Doble de Snorri Spangelhelm y de Skalf Martillonegro" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -43952,6 +43879,56 @@ Duración: Instantáneo (efecto del movimiento hasta final de turno enemigo).</d
               </entryLinks>
               <costs>
                 <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="90.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7b3d-0b63-9b22-12ea" name="Runa Doble Magistral de agravio de Kragg el gruñón" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a454-1ddc-e74f-de14" type="equalTo"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4a5f-3381-a7d1-98f2" type="greaterThan"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1c33-55c6-d931-603b" type="greaterThan"/>
+                          </conditions>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a454-1ddc-e74f-de14" type="equalTo"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c5d6-e702-135f-d826" type="greaterThan"/>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="23f1-3e45-22d1-6abc" type="greaterThan"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1a6-6129-1338-fd48" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4577-de43-f488-1b3d" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="9e04-6235-66ae-5be6" name="Runa de los agravios" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
+                  <characteristics>
+                    <characteristic name="Protección" typeId="9f41-c15e-1f5f-9d01">Designa un personaje o monstruo enemigo. Cuando el portador de un arma con esta runa ataque a ese personaje o monstruo, puede repetir siempre las tiradas para impactar. Runas adicionales no tienen ningún efecto adicional.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="7463-ae18-f627-f561" name="Ley de la forma" hidden="false" targetId="e7cc-921e-3c44-6c23" type="rule"/>
+                <infoLink id="970a-116e-89fa-92c7" name="Ley de las armas runadas" hidden="false" targetId="b63a-f0fc-53e3-207f" type="rule"/>
+                <infoLink id="e152-da09-69d1-a457" name="Ley de las runas celosas" hidden="false" targetId="67b9-6df0-528a-b77d" type="rule"/>
+                <infoLink id="4a71-d42e-8402-94f6" name="Ley del orgullo" hidden="false" targetId="5a9a-6906-0c69-daa0" type="rule"/>
+                <infoLink id="8722-0eab-f1c9-273e" name="Ley del tres" hidden="false" targetId="7409-1c87-9b3f-501d" type="rule"/>
+              </infoLinks>
+              <entryLinks>
+                <entryLink id="4928-4513-ac1f-fcfc" name="Runa Magistral de Kragg el Gruñón" hidden="false" collective="false" import="true" targetId="164c-3950-8f09-811d" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="35.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
