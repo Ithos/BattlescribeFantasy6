@@ -2658,7 +2658,7 @@ Ten en cuenta que un ejército sólo puede incluir un Portaestandarte de Batalla
           <selectionEntries>
             <selectionEntry id="ad33-6ff6-bb0a-97ed" name="Armadura de Khorne" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bd9c-6944-04f0-7c5a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bd9c-6944-04f0-7c5a" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4df6-c3df-eccb-3114" type="min"/>
               </constraints>
               <profiles>
@@ -2674,7 +2674,7 @@ Ten en cuenta que un ejército sólo puede incluir un Portaestandarte de Batalla
             </selectionEntry>
             <selectionEntry id="ee7c-485c-6ea6-fe96" name="Hacha de Khorne" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="82e2-02c6-f330-6e2e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="82e2-02c6-f330-6e2e" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afb6-d274-4cca-96d8" type="min"/>
               </constraints>
               <profiles>
@@ -2690,7 +2690,7 @@ Ten en cuenta que un ejército sólo puede incluir un Portaestandarte de Batalla
             </selectionEntry>
             <selectionEntry id="8d83-3ad9-ee73-7e9c" name="Poder de Khorne" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="22c4-21b4-cf3e-918d" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="22c4-21b4-cf3e-918d" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="674b-d1ed-389b-983c" type="min"/>
               </constraints>
               <profiles>
@@ -2813,7 +2813,7 @@ Ten en cuenta que un ejército sólo puede incluir un Portaestandarte de Batalla
           <selectionEntries>
             <selectionEntry id="ca84-4ea3-021d-4826" name="Nube de moscas" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f6b6-4a98-1959-a9b1" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f6b6-4a98-1959-a9b1" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83b0-0999-8d23-bed9" type="min"/>
               </constraints>
               <profiles>
@@ -2829,7 +2829,7 @@ Ten en cuenta que un ejército sólo puede incluir un Portaestandarte de Batalla
             </selectionEntry>
             <selectionEntry id="10b4-b391-90fc-1ae5" name="Torrente de corrupción" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3aca-7df8-a0ec-7cdd" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3aca-7df8-a0ec-7cdd" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9d6-0c19-aef1-bddf" type="min"/>
               </constraints>
               <profiles>
@@ -2995,7 +2995,7 @@ Ten en cuenta que un ejército sólo puede incluir un Portaestandarte de Batalla
           <selectionEntries>
             <selectionEntry id="32c3-b0c3-21ae-eb3c" name="Almizcle soporífero" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6445-c7d4-f48d-8870" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6445-c7d4-f48d-8870" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c7e-77db-ca4e-0108" type="min"/>
               </constraints>
               <profiles>
@@ -3011,7 +3011,7 @@ Ten en cuenta que un ejército sólo puede incluir un Portaestandarte de Batalla
             </selectionEntry>
             <selectionEntry id="1a2c-3276-66db-18d7" name="Aura de Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="53ba-9ab4-93b0-0521" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="53ba-9ab4-93b0-0521" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b1f-5866-104c-216c" type="min"/>
               </constraints>
               <profiles>
@@ -3178,7 +3178,7 @@ Ten en cuenta que un ejército sólo puede incluir un Portaestandarte de Batalla
           <selectionEntries>
             <selectionEntry id="4bee-a6a4-fceb-9fd2" name="Destruyehechizos" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5e2b-45e6-943e-1963" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5e2b-45e6-943e-1963" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f35-1bb1-e445-0b38" type="min"/>
               </constraints>
               <profiles>
@@ -3194,7 +3194,7 @@ Ten en cuenta que un ejército sólo puede incluir un Portaestandarte de Batalla
             </selectionEntry>
             <selectionEntry id="ef6d-d2e7-528b-2cca" name="Maestro de la hechicería" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1878-6e17-6d40-b176" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1878-6e17-6d40-b176" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99ea-d737-3146-6731" type="min"/>
               </constraints>
               <profiles>
@@ -3210,7 +3210,7 @@ Ten en cuenta que un ejército sólo puede incluir un Portaestandarte de Batalla
             </selectionEntry>
             <selectionEntry id="7854-3694-f2f0-ff6c" name="Voluntad de Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cdf1-5a6c-348e-3b68" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cdf1-5a6c-348e-3b68" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ace8-7916-fed9-9ef2" type="min"/>
               </constraints>
               <profiles>
