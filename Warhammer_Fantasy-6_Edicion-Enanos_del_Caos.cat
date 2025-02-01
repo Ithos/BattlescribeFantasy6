@@ -3406,7 +3406,6 @@ unidad recibe 1D6 heridas.</description>
         <selectionEntryGroup id="121f-41a6-5335-699f" name="Armadura" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a84e-86e9-fba1-ffe2" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2faf-1a64-af14-c6aa" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="8f57-3e84-3d82-c388" name="Armadura pesada" hidden="false" collective="false" import="true" type="upgrade">
@@ -11503,6 +11502,9 @@ Se tira para impactar normalmente, se puede aguantar y disparar con él y no est
                   <categoryLinks>
                     <categoryLink id="fb4d-80cf-5535-ed37" name="Unidad singular" hidden="false" targetId="184a-30ec-bf7c-b603" primary="false"/>
                   </categoryLinks>
+                  <costs>
+                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
