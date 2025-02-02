@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cf2c-7980-f2d7-a99d" name="Warhammer_Fantasy-6_Edicion_Enanos_del_Caos" revision="4" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cf2c-7980-f2d7-a99d" name="Warhammer_Fantasy-6_Edicion_Enanos_del_Caos" revision="5" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b009-2603-2bf0-7da4" name="Señor de la torre" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -83,7 +83,7 @@
         </selectionEntryGroup>
         <selectionEntryGroup id="d83b-4690-5075-1f25" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="d820-f0c3-f38a-bbda">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d55f-91a8-06f9-b52a" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d55f-91a8-06f9-b52a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f4e-5b23-0388-d525" type="min"/>
           </constraints>
           <selectionEntries>
@@ -112,6 +112,7 @@
             <selectionEntry id="d820-f0c3-f38a-bbda" name="Arma de mano" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="590d-7eeb-ffb6-4522" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8723-5a48-8839-4936" type="min"/>
               </constraints>
               <infoLinks>
                 <infoLink id="7121-29e0-e757-bf0c" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
@@ -818,7 +819,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="322e-a3bb-8f2a-ce3c" name="Armas" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="299b-a2f5-150a-5640" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="299b-a2f5-150a-5640" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db19-9280-1a7a-e5e0" type="min"/>
           </constraints>
           <selectionEntries>
@@ -847,6 +848,7 @@
             <selectionEntry id="b1e1-b20b-557e-4839" name="Arma de mano" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c634-4c66-0d3d-ba86" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fa2-5f94-1ee8-3181" type="min"/>
               </constraints>
               <infoLinks>
                 <infoLink id="cc8a-9285-3bb2-7637" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
@@ -1150,6 +1152,7 @@
                     <selectionEntry id="2b06-5161-a075-9caf" name="Arma de mano" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7515-f807-cb96-b54b" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f3a-a66c-9c4b-eeaa" type="min"/>
                       </constraints>
                       <infoLinks>
                         <infoLink id="6f84-83af-61f3-a5fc" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
@@ -1707,6 +1710,7 @@
                 <selectionEntry id="3243-5035-cf2e-19e6" name="Arma de mano" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af2f-d4d0-353d-6618" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9af0-ae95-e7b5-f106" type="min"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="7a3e-ee54-1918-1ed9" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
@@ -1891,6 +1895,7 @@ Caos. Los Jinetes de las Estepas no cuentan para el mínimo de unidades básicas
                 <selectionEntry id="9b6f-ad0a-ef45-232c" name="Arma de mano" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70b5-d26e-4e48-3fe9" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ccb-a798-ddae-7d9f" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="552a-9f26-d93c-ca14" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
@@ -2647,20 +2652,6 @@ enemigo pero sólo en caso de ganar el combate (si no ganan no pueden envolver).
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c504-9af8-4e31-6f75" type="max"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry id="2745-1b60-90d7-79a9" name="Pistola" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed04-5c13-e333-fec3" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="60f2-e7e8-db4f-d6f3" name="Pistola (cuerpo a cuerpo)" hidden="false" targetId="1108-0dac-9a06-ddc7" type="profile"/>
-                    <infoLink id="cc6d-7cc5-ad70-6f85" name="Pistola (disparo)" hidden="false" targetId="3cc9-65b6-1e88-d162" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="8.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
               <costs>
                 <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="10.0"/>
               </costs>
