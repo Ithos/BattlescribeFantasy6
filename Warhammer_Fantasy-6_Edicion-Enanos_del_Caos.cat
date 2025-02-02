@@ -1895,7 +1895,7 @@ Caos. Los Jinetes de las Estepas no cuentan para el mínimo de unidades básicas
                 <selectionEntry id="9b6f-ad0a-ef45-232c" name="Arma de mano" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70b5-d26e-4e48-3fe9" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ccb-a798-ddae-7d9f" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ccb-a798-ddae-7d9f" type="min"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="552a-9f26-d93c-ca14" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
