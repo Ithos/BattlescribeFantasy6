@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d7c5-1d65-c35a-2131" name="Warhammer_Fantasy-6_Edicion-Imperio" revision="3" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d7c5-1d65-c35a-2131" name="Warhammer_Fantasy-6_Edicion-Imperio" revision="4" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="becf-a2d3-2ca0-14ba" name="Conde elector" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -597,50 +597,6 @@
               </entryLinks>
               <costs>
                 <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="200.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="2e4e-0557-613c-6e03" name="Dragón (consume una opción de héroe adicional)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="473a-2ee6-b6b4-587a" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="4e8a-bb1f-b5f9-9053" name="Dragón" hidden="false" collective="false" import="true" targetId="144c-c605-916e-00ea" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="320.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="1296-7629-49c2-52a3" name="Luminarca de Hysh (consume una opción de singular, solo si es del Saber de la Luz, sustituye a uno de los acólitos)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0878-7a0f-2862-ae3c" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="2079-3054-3a15-cff8" name="Luminarca de Hysh" hidden="false" collective="false" import="true" targetId="a3af-f3fc-2cb2-d03c" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="175.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="eeee-bd11-b1a1-8feb" name="Huracanum celestial (consume una opción de singular, solo si es del Saber de los Cielos, sustituye a uno de los acólitos)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d65-bf21-b15d-a769" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="47de-115d-174d-a8a0" name="Huracanum celestial" hidden="false" collective="false" import="true" targetId="37a1-0e5a-0cd4-2c6f" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="205.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5125-2135-ed43-35f3" name="Grifo con cabeza adicional (solo si es del saber de las Bestias)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8363-1785-534d-cdab" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="f763-368f-79bc-a640" name="Grifo con cabeza adicional" hidden="false" collective="false" import="true" targetId="03f3-26f3-39c0-1797" type="selectionEntry"/>
-              </entryLinks>
-              <costs>
-                <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="220.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -16699,6 +16655,9 @@ Se tira para impactar normalmente, se puede aguantar y disparar con él y no est
                   <categoryLinks>
                     <categoryLink id="3720-5f41-a32d-d843" name="Unidad singular" hidden="false" targetId="184a-30ec-bf7c-b603" primary="false"/>
                   </categoryLinks>
+                  <costs>
+                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
