@@ -5960,13 +5960,14 @@
           <selectionEntryGroups>
             <selectionEntryGroup id="c408-8ad6-2b54-eb0c" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="b065-64eb-7e48-60aa">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="630b-d38c-bc2d-edf7" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="630b-d38c-bc2d-edf7" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c742-979b-733a-7437" type="min"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="b065-64eb-7e48-60aa" name="Arma de mano" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7afb-965f-1e91-9fdf" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14f4-3035-64e1-f50f" type="min"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="262c-f46c-c956-ac45" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
@@ -6543,24 +6544,12 @@ a una unidad (amiga o enemiga), el Garrapato ataca a dicha unidad (la unidad no 
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="c718-6b3f-ffe7-8b40" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="14bd-90ff-df40-b528">
+            <selectionEntryGroup id="c718-6b3f-ffe7-8b40" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="5301-f8b8-8a93-92cf">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e76-0075-3669-1534" type="max"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61e7-a81b-1996-38d1" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e76-0075-3669-1534" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61e7-a81b-1996-38d1" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="14bd-90ff-df40-b528" name="Arma de mano" hidden="false" collective="true" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45bb-88a7-93f8-af86" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c08-a94e-78f0-677f" type="min"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="8565-7b5c-d1cf-b100" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
-                  </costs>
-                </selectionEntry>
                 <selectionEntry id="5301-f8b8-8a93-92cf" name="Lanza (caballería)" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="640e-96fa-9303-797c" type="max"/>
@@ -6740,24 +6729,12 @@ a una unidad (amiga o enemiga), el Garrapato ataca a dicha unidad (la unidad no 
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="a885-67d0-9833-93fd" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="846f-261f-6bcd-38d0">
+            <selectionEntryGroup id="a885-67d0-9833-93fd" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="005f-e461-5b45-7bed">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e2a-62a5-33fd-d16e" type="max"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a3c-4ab0-f761-9944" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e2a-62a5-33fd-d16e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a3c-4ab0-f761-9944" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="846f-261f-6bcd-38d0" name="Arma de mano" hidden="false" collective="true" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d7b-6cdf-091b-1ee2" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e513-83c4-141e-1115" type="min"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="2e34-233b-3a36-004f" name="Arma de mano" hidden="false" targetId="4645-41a2-83c2-d8bc" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
-                  </costs>
-                </selectionEntry>
                 <selectionEntry id="005f-e461-5b45-7bed" name="Lanza (caballería)" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c267-b8b1-5645-38c0" type="max"/>
@@ -16135,6 +16112,9 @@ Se tira para impactar normalmente, se puede aguantar y disparar con él y no est
                   <categoryLinks>
                     <categoryLink id="40e5-b53c-13e1-ac64" name="Unidad singular" hidden="false" targetId="184a-30ec-bf7c-b603" primary="false"/>
                   </categoryLinks>
+                  <costs>
+                    <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
