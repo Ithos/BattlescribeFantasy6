@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7020-46e5-3849-599f" name="Warhammer_Fantasy-6_Edicion-Reinos_del_Caos_Mortales" revision="6" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7020-46e5-3849-599f" name="Warhammer_Fantasy-6_Edicion-Reinos_del_Caos_Mortales" revision="7" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="794e-d351-4b59-110e" name="Carro de tuskgors" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -5945,6 +5945,9 @@ Mutación incontrolable. Sólo en combate cuerpo a cuerpo. Lanza 1D6 por cada Ho
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e11-e795-16b1-e6da" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="73d6-a73b-6d1e-e5fd" name="Volar" hidden="false" targetId="90d6-fe4d-a823-314b" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="45.0"/>
           </costs>
@@ -7156,6 +7159,9 @@ Mutación incontrolable. Sólo en combate cuerpo a cuerpo. Lanza 1D6 por cada Ho
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b232-d6cf-8b19-3b00" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="673b-b0f6-6b3c-af4d" name="Volar" hidden="false" targetId="90d6-fe4d-a823-314b" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="45.0"/>
           </costs>
