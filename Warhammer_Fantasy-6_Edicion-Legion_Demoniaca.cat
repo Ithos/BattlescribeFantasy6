@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d5d5-5c6e-21d4-b471" name="Warhammer_Fantasy-6_Edicion-Legion_Demoniaca" revision="5" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d5d5-5c6e-21d4-b471" name="Warhammer_Fantasy-6_Edicion-Legion_Demoniaca" revision="6" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="d146-7182-ddfb-2c3c" name="Aulladores de Tzeentch" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -2194,6 +2194,9 @@ Ten en cuenta que un ejército sólo puede incluir un Portaestandarte de Batalla
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e11-e795-16b1-e6da" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="d3ec-e0eb-9be0-373e" name="Volar" hidden="false" targetId="90d6-fe4d-a823-314b" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="45.0"/>
           </costs>
@@ -3403,6 +3406,9 @@ Ten en cuenta que un ejército sólo puede incluir un Portaestandarte de Batalla
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b232-d6cf-8b19-3b00" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="8421-9958-bfcf-7a3a" name="Volar" hidden="false" targetId="90d6-fe4d-a823-314b" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="45.0"/>
           </costs>
