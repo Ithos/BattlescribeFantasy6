@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f551-0992-682c-c960" name="Warhammer_Fantasy-6_Edicion-Orcos_y_Goblins" revision="4" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f551-0992-682c-c960" name="Warhammer_Fantasy-6_Edicion-Orcos_y_Goblins" revision="5" battleScribeVersion="2.03" authorName="Ithos" authorContact="" authorUrl="https://github.com/Ithos" library="false" gameSystemId="fd97-5cfe-d46c-03c6" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="c76f-cc67-773f-41b7" name="Kaudillo orco negro" hidden="false" collective="false" import="true" type="model">
       <modifiers>
@@ -831,13 +831,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5281-6c80-3df2-40e8" name="Arkeroz orcos" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e40-8d41-b3e0-8ffe" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <profiles>
         <profile id="ce11-c83c-64c8-06f0" name="Orco" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
           <characteristics>
@@ -1011,11 +1004,6 @@
           <repeats>
             <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bc9c-afb3-0053-0ac9" repeats="1" roundUp="false"/>
           </repeats>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e40-8d41-b3e0-8ffe" type="greaterThan"/>
-          </conditions>
         </modifier>
       </modifiers>
       <constraints>
@@ -1342,13 +1330,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2af4-3a12-9c8f-e876" name="Jinetez de lobo" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e40-8d41-b3e0-8ffe" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <profiles>
         <profile id="9298-31a6-4363-de47" name="Jinete de lobo" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
           <characteristics>
@@ -1560,13 +1541,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="bdd7-64a3-76d2-655b" name="Orcos negros" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e40-8d41-b3e0-8ffe" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5002-50df-94af-50c0" type="max"/>
       </constraints>
@@ -4941,13 +4915,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="acf6-3e3b-637b-8592" name="Guerreros orcos" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e40-8d41-b3e0-8ffe" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <profiles>
         <profile id="f06c-3ebb-529c-f0ef" name="Orco" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
           <characteristics>
@@ -5131,11 +5098,6 @@
               </conditions>
             </conditionGroup>
           </conditionGroups>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e40-8d41-b3e0-8ffe" type="greaterThan"/>
-          </conditions>
         </modifier>
       </modifiers>
       <constraints>
@@ -5323,13 +5285,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="69bf-d706-9173-b962" name="Orcos zalvajes" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e40-8d41-b3e0-8ffe" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <profiles>
         <profile id="cef3-4dd3-71cc-d967" name="Orco zalvaje" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
           <characteristics>
@@ -5530,11 +5485,6 @@
               </conditions>
             </conditionGroup>
           </conditionGroups>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e40-8d41-b3e0-8ffe" type="greaterThan"/>
-          </conditions>
         </modifier>
       </modifiers>
       <constraints>
@@ -6543,11 +6493,6 @@ a una unidad (amiga o enemiga), el Garrapato ataca a dicha unidad (la unidad no 
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e40-8d41-b3e0-8ffe" type="greaterThan"/>
-          </conditions>
-        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a39e-bd4e-3f85-8186" type="max"/>
@@ -6736,13 +6681,6 @@ a una unidad (amiga o enemiga), el Garrapato ataca a dicha unidad (la unidad no 
       </costs>
     </selectionEntry>
     <selectionEntry id="fe2a-c489-fa3f-2452" name="Jinetez de jabalí" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e40-8d41-b3e0-8ffe" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <profiles>
         <profile id="19c4-be29-aebe-ca7a" name="Jinete de jabalí " hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
           <characteristics>
@@ -6922,11 +6860,6 @@ a una unidad (amiga o enemiga), el Garrapato ataca a dicha unidad (la unidad no 
               </conditions>
             </conditionGroup>
           </conditionGroups>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e40-8d41-b3e0-8ffe" type="greaterThan"/>
-          </conditions>
         </modifier>
       </modifiers>
       <constraints>
@@ -7125,13 +7058,6 @@ a una unidad (amiga o enemiga), el Garrapato ataca a dicha unidad (la unidad no 
       </costs>
     </selectionEntry>
     <selectionEntry id="8819-1ef4-392c-4fdb" name="Jinetez zalvajes de jabalí " hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e40-8d41-b3e0-8ffe" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <profiles>
         <profile id="8643-8d20-39a2-e25f" name="Jinete zalvaje de jabalí" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
           <characteristics>
@@ -7333,13 +7259,6 @@ a una unidad (amiga o enemiga), el Garrapato ataca a dicha unidad (la unidad no 
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0bb9-060a-b85b-44bc" name="Ezpabilagoblinz" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e40-8d41-b3e0-8ffe" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c63-775a-dc14-a63b" type="max"/>
           </constraints>
@@ -7503,13 +7422,6 @@ a una unidad (amiga o enemiga), el Garrapato ataca a dicha unidad (la unidad no 
           </rules>
           <selectionEntries>
             <selectionEntry id="5fa7-bd4f-bc94-8531" name="Ezpabilagoblinz" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e40-8d41-b3e0-8ffe" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47b9-2d13-875f-735b" type="max"/>
               </constraints>
@@ -7641,13 +7553,6 @@ a una unidad (amiga o enemiga), el Garrapato ataca a dicha unidad (la unidad no 
       </costs>
     </selectionEntry>
     <selectionEntry id="ebd1-fa9d-5f23-371a" name="Trolls" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e40-8d41-b3e0-8ffe" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <profiles>
         <profile id="6978-f557-06c2-c71b" name="Troll" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
           <characteristics>
@@ -7842,13 +7747,6 @@ en ese punto (ignora las unidades después de ese punto).</description>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d6f8-c8cb-36ca-448a" name="Ezpabilagoblinz" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e40-8d41-b3e0-8ffe" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ace-f37b-466c-ada2" type="max"/>
           </constraints>
@@ -7975,13 +7873,6 @@ en ese punto (ignora las unidades después de ese punto).</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="0dcf-ba1f-1231-8255" name="Gigante" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e40-8d41-b3e0-8ffe" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <profiles>
         <profile id="2006-68a3-93b2-a3e7" name="Gigante" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
           <characteristics>
@@ -16308,7 +16199,7 @@ Se tira para impactar normalmente, se puede aguantar y disparar con él y no est
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d697-b045-7f91-fe11" type="min"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="5e40-8d41-b3e0-8ffe" name="Ejército de Goblins" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5e40-8d41-b3e0-8ffe" name="Solo personajes goblins" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ae46-a44b-17e7-a69b" type="max"/>
           </constraints>
@@ -16339,7 +16230,7 @@ Se tira para impactar normalmente, se puede aguantar y disparar con él y no est
       </constraints>
       <rules>
         <rule id="6ff8-7e25-f16c-888f" name="Personajes Adicionales" hidden="false">
-          <description>Si el ejército está compuesto solo por goblins puede contener un Gran jefe goblin o Gran Jefe goblin nocturno adicional por cada 1000 puntos de ejército</description>
+          <description>Si el ejército solo tiene personajes goblins puede contener un Gran jefe goblin o Gran Jefe goblin nocturno adicional por cada 1000 puntos de ejército</description>
         </rule>
       </rules>
       <selectionEntries>
